@@ -1,0 +1,3 @@
+FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+LATTES,PERIODICO,2224821652873925,Luan José Félix Mota Silva Pimentel,10.5335/rbca.v9i2.7143,Redblock: a tool for online deduplication on large datasets,2017,Inglês,REVISTA BRASILEIRA DE COMPUTAÇÃO APLICADA,SEM_DADOS,SEM_DADOS,"['PIMENTEL, LUAN FÉLIX and', 'VICENTE, IGOR LEMOS and', 'BIANCO, GUILHERME DAL and']"
+LATTES,PERIODICO,2224821652873925,Luan José Félix Mota Silva Pimentel,,Redblock: Uma ferramenta para a deduplicacão de grandes bases de dados em tempo real,2017,Português,Escola Regional de Banco de Dados,SEM_DADOS,SEM_DADOS,"['PIMENTEL, Luan Félix;PIMENTEL, LUAN FÉLIX and', 'VICENTE, I. L. and', 'BIANCO, G. D. and']"

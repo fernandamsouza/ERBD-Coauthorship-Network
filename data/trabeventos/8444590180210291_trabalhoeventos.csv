@@ -1,0 +1,3 @@
+FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+LATTES,TRAB.EVENTO,8444590180210291,Jeferson Kasper,COMPLETO,Extensão para a execução de regras através da detecção de eventos temporais,2006,Português,II Escola Regional de Bancos de Dados - ERBD 2006,Passo Fundo - RS,2006,"['SIMONETTO, E. O. and', 'SEM_DADOS and']"
+LATTES,TRAB.EVENTO,8444590180210291,Jeferson Kasper,RESUMO_EXPANDIDO,ACTIVERULESDBX,2008,Português,"JISBD 2008 - 13th Conference on Software Engineering and Databases, 2008",Gijón,2008,"['SIMONETTO, E. O. and', 'LIBRELOTTO, G. R. and', 'SEM_DADOS and']"
