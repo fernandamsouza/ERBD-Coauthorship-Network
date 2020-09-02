@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0718830701479001,Sergio Luis Sardi Mergen,COMPLETO,AXIS: a Java implementation of a data exchange architecture among heterogeneous data sources using XML documents,2002,Inglês,NetObjectDays (NodE 2002),Erfurt,2002,"['MERGEN, S. L. S.;MERGEN, SERGIO L S and', 'HEUSER, C. A. and', 'KROTH, E. and']"
 LATTES,TRAB.EVENTO,0718830701479001,Sergio Luis Sardi Mergen,COMPLETO,AXIS: a data exchange architecture among heterogeneous data sources using XML documents,2002,Inglês,Simpósio Argentino de Ingeniería de Software (ASSE?2002),Santa Fe,2002,"['MERGEN, S. L. S.;MERGEN, SERGIO L S and', 'KELLER, M. and', 'KROTH, E. and']"
 LATTES,TRAB.EVENTO,0718830701479001,Sergio Luis Sardi Mergen,RESUMO,Estudo e Fabricação de um carro-robô controlado por computador com características Lúdico Pedagógicas,1999,Português,"V Seminário de Iniciação Cientifica e IV Jornada de Ensino, Pesquisa e extensão da UNISC",Santa Cruz do Sul,1999,"['MERGEN, S. L. S.;MERGEN, SERGIO L S and']"

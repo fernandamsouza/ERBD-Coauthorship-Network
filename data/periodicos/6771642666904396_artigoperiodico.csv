@@ -1,3 +1,3 @@
-FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,6771642666904396,Alex Sandro Romeo de Souza Poletto,,"O Grau de Auto-Organização existentes nos Modelos de Redes Neurais Artificiais, no processo paralelo de Informação",2000,Português,Vale (Assis),SEM_DADOS,SEM_DADOS,"['POLETTO, A. S. R. S. and']"
 LATTES,PERIODICO,6771642666904396,Alex Sandro Romeo de Souza Poletto,,Treinamento de uma Rede Neural Artificial Backpropagation para Conhecimento e Classificação de Características Animais,2001,Português,Vale (Assis),SEM_DADOS,SEM_DADOS,"['POLETTO, A. S. R. S. and']"

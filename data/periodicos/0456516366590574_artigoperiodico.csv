@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,0456516366590574,Rodrigo Machado,,Type-safe Versioned Object Query Language,2006,Inglês,Journal of Universal Computer Science (Online),SEM_DADOS,SEM_DADOS,"['MACHADO, R.;MACHADO, RODRIGO and', 'MOREIRA, Álvaro Freitas and', 'GALANTE, Renata de Matos and', 'MORO, M. M. and']"
 LATTES,PERIODICO,0456516366590574,Rodrigo Machado,,Simulador da Máquina de Turing Paralela com Memória Compartilhada,2001,Português,Revista Eletrônica de Iniciação Científica,SEM_DADOS,SEM_DADOS,"['Diego F. Contessa and', 'Clarissa C. Marquezan and', 'Everton R. Polina and', 'MACHADO, R.;MACHADO, RODRIGO and', 'Monica X. Py and', 'DIVERIO, T. A. and']"
 LATTES,PERIODICO,0456516366590574,Rodrigo Machado,,On the Interaction of Advices and Raw Types in AspectJ,2008,Inglês,Journal of Universal Computer Science (Online),SEM_DADOS,SEM_DADOS,"['RUBBO, F. B. and', 'MACHADO, R.;MACHADO, RODRIGO and', 'MOREIRA, Álvaro Freitas and', 'RIBEIRO, L. and', 'NUNES, D. J. and']"

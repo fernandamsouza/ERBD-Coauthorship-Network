@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,1894333931411941,Alexandre Tagliari Lazzaretti,COMPLETO,A Domain Integrity Constraint Control for XML Documents,2005,Inglês,20o Simpósio Brasileiro de Banco de Dados,Uberlândia,2005,"['LAZZARETTI, A. T.;LAZZARETTI, A.T.;LAZZARETTI, ALEXANDRE TAGLIARI and', 'MELLO, R. S. and']"
 LATTES,TRAB.EVENTO,1894333931411941,Alexandre Tagliari Lazzaretti,RESUMO,Restrições de Integridade de Domínio em Documentos XML,2006,Outros,II Escola Regional de Banco de Dados,Passo Fundo,2006,"['LAZZARETTI, A. T.;LAZZARETTI, A.T.;LAZZARETTI, ALEXANDRE TAGLIARI and', 'MELLO, R. S. and']"
 LATTES,TRAB.EVENTO,1894333931411941,Alexandre Tagliari Lazzaretti,COMPLETO,FGIBD - Um Framework Genérico de Integração de Bases de Dados Aplicado à Agricultura,2011,Português,III Simpósio de Computação aplicada,Passo Fundo,2011,"['LAZZARETTI, A. T.;LAZZARETTI, A.T.;LAZZARETTI, ALEXANDRE TAGLIARI and']"

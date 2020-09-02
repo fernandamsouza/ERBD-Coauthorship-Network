@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,8317821729275486,André Dias Bastos,RESUMO,Uma ferramenta para elaboração de exercícios integrados ao TelEduc.,2002,Português,,Porto Alegre,2002,"['SILVEIRA, Ricardo A. and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,8317821729275486,André Dias Bastos,RESUMO,Uma ferramenta para elaboração de exercícios integrados ao TelEduc utilizando PHP e MySQL,2002,Português,,Pelotas,2002,"['SILVEIRA, Ricardo A. and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,8317821729275486,André Dias Bastos,COMPLETO,Transformação de GML para SVG em uma Clearinghouse para disponibilização de dados geográficos na Internet,2004,Português,,Itajaí,2004,"['IOCHPE, Cirano and', 'LIMA, José Valdeni de and', 'SEM_DADOS and']"

@@ -152,7 +152,7 @@ def getartigospublicados(zipname):
                     df_nome = pd.DataFrame ({
                     'FONTE': lattes_lattes,
                     'TIPO': periodico,
-                    'ID': id_lattes,
+                    'ID_LATTES': id_lattes,
                     'NOME': nome_completo })
 
                     df_periodicos = pd.DataFrame ({
@@ -311,7 +311,7 @@ def getartigoseventos(zipname):
             df_nome = pd.DataFrame ({
             'FONTE': lattes_lattes,
             'TIPO': eventos,
-            'ID': id_lattes,
+            'ID_LATTES': id_lattes,
             'NOME': nome_completo}) 
 
             df_artigos_eventos = pd.DataFrame ({
@@ -412,26 +412,26 @@ def getnomecompleto(zipname):
                     else:
                         resultado = data_campo.group(1)
                     nome_citacao.append(resultado)
-            resumo_curriculo_vitae = curriculo_vitae[i].find_all('resumo-curriculo_vitae')
+            resumo_curriculo_vitae = curriculo_vitae[i].find_all('resumo-cv')
             # VERIFICANDO se ha resumo
             if len(resumo_curriculo_vitae) == 0:
                 print('Resumo curriculo_vitae nao encontrado.')
-                resultado = 'SEM_DADOS'
-                resumo.append(resultado)
+                data_campo2 = 'SEM_DADOS'
+                resumo.append(data_campo2)
             else:
                 for j in range(len(resumo_curriculo_vitae)):
                     # definindo resumo
                     data_cv = str(resumo_curriculo_vitae[j])
-                    data_campo = re.search('texto-resumo-curriculo_vitae-rh=\"(.*)\" texto-resumo-curriculo_vitae-rh-en=', data_cv, re.DOTALL)
-                    if data_campo is None:
-                        resultado = 'SEM_DADOS'
+                    resultado = re.search('texto-resumo-cv-rh=\"(.*)\" texto-resumo-cv-rh-en=', data_cv, re.DOTALL)
+                    if resultado is None:
+                        data_campo2 = 'SEM_DADOS'
                     else:
-                        resultado = data_campo.group(1)
-                    resumo.append(resultado)
+                        data_campo2 = resultado.group(1)
+                    resumo.append(data_campo2)
         # DataFrame nome completo e sobrenome
 
         df_fullname = pd.DataFrame({
-        'ID': id_lattes,
+        'ID_LATTES': id_lattes,
         'FULL_NAME': nome_completo,
         'CITADO': nome_citacao,
         'CITY': cidade,

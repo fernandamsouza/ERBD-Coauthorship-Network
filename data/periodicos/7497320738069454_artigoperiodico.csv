@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,7497320738069454,Edimar Manica,,Supporting Temporal Queries on XML Keyword Search Engines,2010,Inglês,Journal of Information and Data Management - JIDM,SEM_DADOS,SEM_DADOS,"['MANICA, Edimar and', 'DORNELES, Carina Friedrich and', 'GALANTE, R. and']"
 LATTES,PERIODICO,7497320738069454,Edimar Manica,,Uma Biblioteca Digital de Trabalhos Científicos com Serviços Integrados,2009,Português,Revista Brasileira de Computação Aplicada,SEM_DADOS,SEM_DADOS,"['Cervi, C.R and', 'MANICA, Edimar and', 'DORNELES, C. F. and', 'Dorneles, Carina F. and', 'GALANTE, Renata de Matos and']"
 LATTES,PERIODICO,7497320738069454,Edimar Manica,,Handling Temporal Information in Web Search Engines,2012,Inglês,SIGMOD Record,SEM_DADOS,SEM_DADOS,"['MANICA, Edimar and', 'Dorneles, Carina F. and', 'GALANTE, R. and']"

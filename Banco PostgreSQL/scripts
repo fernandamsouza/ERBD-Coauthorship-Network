@@ -1,0 +1,869 @@
+
+- truncate em table autoresartigo (criar uma tabela temporária para isso
+- adicionado em autores colunas id_lattes, nome_citado e ultima_atualizacao
+
+DELETE FROM autores WHERE autores.id in (
+219
+,292
+,158
+,66
+,129
+,439
+,5
+,243
+,271
+,33
+,365
+,384
+,54
+,348
+,82
+,85
+,256
+,186
+,391
+,213
+,43
+,329
+,228
+,40
+,1
+,115
+,400
+,237
+,139
+,53
+,240
+,419
+,289
+,84
+,376
+,188
+,386
+,417
+,169
+,422
+,123
+,206
+,315
+,307
+,107
+,187
+,76
+,118
+,428
+,29
+,253
+,341
+,190
+,363
+,28
+,165
+,93
+,140
+,345
+,27
+,91
+,408
+,126
+,291
+,189
+,269
+,145
+,377
+,244
+,229
+,300
+,239
+,68
+,61
+,209
+,420
+,222
+,266
+,268
+,48
+,252
+,225
+,312
+,130
+,394
+,326
+,373
+,36
+,435
+,242
+,3
+,424
+,232
+,274
+,92
+,434
+,171
+,55
+,319
+,58
+,309
+,198
+,112
+,301
+,41
+,21
+,304
+,211
+,155
+,11
+,72
+,355
+,121
+,364
+,78
+,20
+,197
+,367
+,114
+,181
+,258
+,216
+,81
+,413
+,168
+,9
+,4
+,163
+,64
+,175
+,202
+,203
+,119
+,150
+,83
+,236
+,104
+,290
+,135
+,49
+,63
+,59
+,259
+,278
+,50
+,306
+,338
+,207
+,205
+,89
+,56
+,19
+,65
+,7
+,296
+,369
+,231
+,200
+,257
+,282
+,321
+,380
+,281
+,314
+,220
+,212
+,279
+,19
+,215
+,446);
+
+
+COPY autores(id, nome, genero, artigossbbd, id_lattes, nome_citado, ultima_atualizacao)
+FROM '//home/nanda/Área de Trabalho/ERBD - Artigo - IC/scraperXMLtoCSV/autores.csv'
+DELIMITER ','
+CSV HEADER;
+
+- Após, adicionar tudo de volta na tabela autoresartigo
+
+--
+-- TOC entry 2918 (class 0 OID 82818)
+-- Dependencies: 207
+-- Data for Name: autoresartigo; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (611, 401, 226, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (635, 417, 233, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (636, 418, 233, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (637, 419, 234, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (638, 201, 234, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (640, 421, 236, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (639, 420, 236, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (642, 423, 237, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (641, 422, 237, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (645, 426, 238, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (644, 425, 238, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (643, 424, 238, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (647, 427, 239, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (646, 422, 239, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (653, 433, 240, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (652, 432, 240, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (650, 430, 240, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (649, 429, 240, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (648, 428, 240, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (651, 431, 240, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (655, 54, 241, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (654, 434, 241, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (661, 128, 242, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (659, 437, 242, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (658, 216, 242, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (657, 436, 242, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (656, 435, 242, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (660, 438, 242, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (667, 128, 243, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (666, 443, 243, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (665, 442, 243, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (664, 441, 243, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (663, 440, 243, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (662, 439, 243, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (80, 64, 35, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (83, 6, 36, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (82, 65, 36, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (86, 2, 37, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (85, 67, 37, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (84, 66, 37, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (89, 70, 38, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (87, 68, 38, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (91, 18, 39, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (90, 71, 39, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (95, 75, 40, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (94, 74, 40, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (92, 72, 40, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (93, 73, 40, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (98, 24, 41, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (97, 77, 41, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (96, 76, 41, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (99, 9, 42, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (103, 80, 43, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (102, 79, 43, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (101, 78, 43, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (104, 81, 44, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (105, 10, 44, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (107, 83, 45, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (106, 82, 45, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (109, 50, 46, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (108, 84, 46, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (110, 85, 47, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (113, 24, 48, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (112, 67, 48, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (115, 88, 49, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (114, 87, 49, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (118, 13, 50, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (117, 90, 50, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (116, 89, 50, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (121, 10, 51, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (120, 8, 51, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (123, 50, 52, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (122, 92, 52, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (124, 19, 53, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (125, 2, 53, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (129, 50, 54, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (128, 49, 54, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (127, 94, 54, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (126, 93, 54, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (132, 50, 55, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (131, 54, 55, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (134, 18, 56, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (133, 96, 56, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (135, 97, 57, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (136, 98, 57, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (138, 83, 58, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (137, 99, 58, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (142, 103, 59, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (141, 102, 59, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (140, 101, 59, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (139, 100, 59, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (143, 104, 60, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (145, 105, 61, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (146, 106, 61, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (151, 111, 62, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (150, 110, 62, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (149, 109, 62, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (148, 108, 62, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (147, 107, 62, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (153, 50, 63, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (152, 112, 63, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (155, 83, 64, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (157, 50, 65, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (156, 114, 65, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (160, 50, 66, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (159, 64, 66, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (158, 115, 66, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (163, 117, 67, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (162, 116, 67, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (161, 68, 67, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (164, 106, 68, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (166, 119, 68, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (168, 50, 69, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (167, 120, 69, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (171, 122, 70, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (170, 119, 70, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (169, 121, 70, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (175, 124, 71, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (174, 119, 71, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (173, 47, 71, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (172, 123, 71, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (177, 119, 72, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (176, 125, 72, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (181, 128, 73, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (180, 127, 73, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (179, 126, 73, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (182, 129, 74, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (184, 131, 75, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (183, 130, 75, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (187, 134, 76, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (186, 133, 76, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (190, 56, 77, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (189, 136, 77, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (188, 135, 77, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (192, 137, 78, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (193, 138, 78, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (195, 10, 79, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (194, 139, 79, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (185, 132, 76, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (197, 141, 80, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (622, 409, 229, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (231, 159, 91, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (230, 158, 91, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (232, 118, 92, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (233, 6, 92, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (234, 119, 92, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (236, 106, 93, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (235, 160, 93, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (238, 13, 93, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (239, 50, 94, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (240, 161, 94, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (244, 164, 95, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (242, 163, 95, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (243, 128, 95, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (241, 162, 95, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (245, 165, 96, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (248, 34, 97, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (247, 167, 97, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (250, 6, 98, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (249, 168, 98, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (252, 170, 99, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (251, 169, 99, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (254, 123, 100, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (253, 171, 100, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (257, 6, 101, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (256, 119, 101, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (255, 172, 101, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (260, 174, 102, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (258, 50, 102, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (261, 175, 103, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (262, 176, 104, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (263, 177, 104, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (265, 179, 105, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (264, 178, 105, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (266, 180, 106, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (270, 184, 107, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (267, 181, 107, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (268, 182, 107, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (272, 128, 108, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (271, 185, 108, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (274, 50, 109, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (273, 186, 109, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (276, 123, 110, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (275, 187, 110, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (278, 6, 111, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (277, 188, 111, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (280, 50, 112, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (279, 189, 112, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (284, 127, 113, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (283, 192, 113, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (281, 190, 113, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (282, 191, 113, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (290, 196, 114, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (289, 195, 114, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (288, 194, 114, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (287, 193, 114, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (292, 6, 115, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (291, 171, 115, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (293, 197, 116, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (296, 199, 117, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (295, 198, 117, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (297, 122, 117, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (301, 122, 118, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (298, 200, 118, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (299, 198, 118, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (300, 199, 118, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (303, 6, 119, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (302, 201, 119, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (305, 202, 120, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (307, 204, 121, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (306, 203, 121, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (308, 205, 122, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (309, 19, 122, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (311, 50, 123, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (310, 206, 123, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (313, 208, 124, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (312, 207, 124, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (315, 19, 125, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (317, 8, 126, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (316, 210, 126, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (318, 211, 127, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (320, 19, 128, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (319, 212, 128, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (322, 214, 129, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (321, 213, 129, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (324, 50, 130, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (323, 215, 130, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (328, 128, 131, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (326, 217, 131, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (327, 218, 131, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (329, 219, 132, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (331, 221, 133, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (330, 220, 133, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (333, 19, 134, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (332, 222, 134, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (335, 224, 135, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (334, 223, 135, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (339, 10, 136, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (337, 226, 136, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (338, 227, 136, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (342, 122, 137, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (341, 199, 137, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (340, 228, 137, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (346, 122, 138, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (344, 230, 138, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (345, 199, 138, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (343, 229, 138, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (576, 23, 215, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (574, 381, 215, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (575, 382, 215, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (573, 380, 215, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (580, 50, 216, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (579, 383, 216, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (578, 244, 216, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (577, 54, 216, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (584, 385, 218, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (583, 384, 218, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (588, 389, 219, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (587, 388, 219, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (586, 387, 219, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (585, 386, 219, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (592, 50, 220, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (591, 54, 220, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (590, 244, 220, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (589, 390, 220, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (595, 392, 221, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (594, 244, 221, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (593, 391, 221, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (630, 414, 232, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (1, 1, 1, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (5, 2, 2, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (4, 4, 2, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (8, 2, 3, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (7, 6, 3, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (6, 5, 3, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (9, 7, 4, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (11, 9, 5, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (12, 10, 5, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (13, 11, 6, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (14, 12, 6, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (15, 13, 6, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (16, 14, 7, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (17, 15, 8, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (18, 16, 8, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (19, 17, 9, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (20, 18, 9, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (21, 19, 10, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (23, 20, 11, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (24, 13, 11, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (29, 25, 12, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (28, 24, 12, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (27, 23, 12, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (26, 22, 12, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (25, 21, 12, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (30, 26, 13, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (32, 2, 14, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (33, 28, 15, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (418, 141, 164, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (415, 267, 163, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (416, 23, 163, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (417, 268, 164, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (421, 64, 165, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (419, 269, 165, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (420, 270, 165, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (425, 52, 167, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (423, 272, 166, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (424, 273, 167, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (430, 22, 168, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (427, 275, 168, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (426, 274, 168, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (428, 276, 168, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (429, 277, 168, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (433, 208, 169, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (431, 278, 169, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (432, 122, 169, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (436, 64, 170, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (435, 280, 170, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (438, 19, 171, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (437, 281, 171, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (443, 286, 172, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (439, 282, 172, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (440, 283, 172, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (441, 284, 172, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (442, 285, 172, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (447, 122, 173, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (444, 287, 173, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (446, 289, 173, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (449, 141, 174, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (448, 290, 174, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (451, 123, 175, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (450, 291, 175, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (455, 295, 176, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (453, 293, 176, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (454, 294, 176, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (452, 292, 176, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (459, 299, 177, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (457, 297, 177, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (458, 298, 177, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (461, 106, 178, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (460, 300, 178, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (464, 303, 179, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (463, 302, 179, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (462, 301, 179, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (467, 305, 180, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (465, 304, 180, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (466, 258, 180, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (468, 300, 181, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (472, 50, 182, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (471, 54, 182, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (470, 306, 182, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (474, 308, 183, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (473, 307, 183, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (475, 309, 184, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (476, 310, 184, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (509, 337, 194, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (507, 335, 194, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (506, 334, 194, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (505, 333, 194, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (504, 332, 194, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (513, 274, 195, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (511, 339, 195, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (512, 340, 195, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (510, 338, 195, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (518, 344, 196, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (514, 341, 196, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (515, 258, 196, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (517, 343, 196, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (521, 347, 197, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (520, 346, 197, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (519, 345, 197, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (524, 350, 198, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (523, 349, 198, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (522, 348, 198, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (529, 354, 199, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (528, 353, 199, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (597, 111, 221, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (596, 393, 221, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (602, 398, 222, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (601, 397, 222, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (2, 2, 1, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (3, 3, 2, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (10, 8, 4, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (22, 2, 10, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (31, 27, 14, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (34, 10, 15, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (38, 32, 16, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (37, 31, 16, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (36, 30, 16, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (35, 29, 16, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (41, 35, 17, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (40, 34, 17, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (39, 33, 17, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (45, 39, 18, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (44, 38, 18, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (43, 37, 18, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (42, 36, 18, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (46, 40, 19, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (49, 2, 20, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (48, 42, 20, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (47, 41, 20, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (52, 45, 21, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (51, 44, 21, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (50, 43, 21, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (54, 47, 22, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (53, 46, 22, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (56, 28, 23, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (55, 48, 23, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (58, 50, 24, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (57, 49, 24, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (60, 52, 25, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (59, 51, 25, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (61, 19, 26, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (62, 2, 26, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (64, 8, 27, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (63, 53, 27, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (65, 54, 28, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (66, 50, 28, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (69, 57, 29, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (68, 56, 29, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (67, 55, 29, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (71, 50, 30, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (70, 58, 30, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (72, 59, 31, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (73, 60, 31, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (74, 61, 32, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (75, 10, 32, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (77, 50, 33, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (76, 62, 33, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (79, 6, 34, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (78, 63, 34, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (81, 50, 35, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (88, 69, 38, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (100, 10, 42, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (111, 86, 47, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (119, 91, 51, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (130, 95, 55, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (144, 83, 60, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (154, 113, 64, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (165, 118, 68, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (178, 123, 72, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (191, 57, 77, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (196, 140, 80, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (202, 144, 81, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (201, 57, 81, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (200, 143, 81, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (199, 142, 81, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (198, 56, 81, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (204, 128, 82, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (203, 145, 82, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (208, 119, 83, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (205, 118, 83, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (206, 106, 83, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (207, 6, 83, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (212, 10, 84, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (209, 146, 84, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (210, 147, 84, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (211, 148, 84, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (215, 119, 85, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (213, 149, 85, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (214, 6, 85, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (217, 83, 86, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (216, 150, 86, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (220, 6, 87, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (219, 119, 87, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (218, 118, 87, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (224, 153, 88, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (221, 151, 88, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (222, 146, 88, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (223, 152, 88, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (226, 68, 89, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (225, 154, 89, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (227, 155, 90, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (228, 156, 90, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (229, 157, 90, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (670, 444, 90, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (671, 445, 90, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (237, 119, 93, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (246, 166, 97, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (259, 173, 102, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (269, 183, 107, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (285, 128, 113, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (286, 129, 114, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (294, 123, 116, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (304, 141, 120, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (314, 209, 125, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (325, 216, 131, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (336, 225, 136, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (348, 19, 139, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (347, 231, 139, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (352, 10, 140, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (350, 233, 140, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (351, 234, 140, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (349, 232, 140, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (477, 311, 184, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (480, 23, 185, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (478, 312, 185, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (479, 313, 185, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (481, 314, 186, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (486, 318, 187, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (484, 316, 187, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (483, 315, 187, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (485, 317, 187, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (488, 106, 188, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (487, 300, 188, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (490, 320, 189, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (489, 319, 189, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (496, 325, 190, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (495, 324, 190, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (493, 52, 190, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (492, 322, 190, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (491, 321, 190, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (499, 328, 191, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (497, 326, 191, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (498, 327, 191, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (501, 50, 192, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (500, 329, 192, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (503, 331, 193, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (600, 396, 222, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (599, 395, 222, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (598, 394, 222, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (604, 141, 223, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (603, 399, 223, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (606, 311, 224, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (605, 400, 224, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (608, 354, 225, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (607, 258, 225, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (612, 50, 226, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (610, 244, 226, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (609, 54, 226, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (613, 304, 227, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (619, 407, 228, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (618, 406, 228, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (616, 404, 228, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (615, 403, 228, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (614, 402, 228, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (617, 405, 228, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (623, 410, 229, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (621, 395, 229, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (620, 408, 229, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (626, 412, 230, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (625, 395, 230, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (624, 411, 230, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (629, 258, 231, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (628, 354, 231, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (627, 413, 231, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (632, 52, 232, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (631, 322, 232, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (633, 415, 232, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (634, 416, 232, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (354, 50, 141, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (353, 189, 141, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (355, 235, 142, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (356, 83, 142, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (360, 238, 143, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (359, 237, 143, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (358, 83, 143, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (357, 236, 143, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (361, 239, 144, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (362, 54, 144, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (364, 241, 145, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (363, 240, 145, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (366, 83, 146, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (365, 237, 146, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (368, 83, 147, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (367, 242, 147, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (370, 54, 148, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (369, 243, 148, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (372, 141, 149, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (371, 244, 149, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (668, 128, 150, 7);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (377, 247, 150, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (378, 248, 150, 6);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (376, 246, 150, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (375, 245, 150, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (374, 64, 150, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (373, 163, 150, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (382, 221, 151, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (381, 251, 151, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (380, 250, 151, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (379, 249, 151, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (385, 224, 152, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (384, 223, 152, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (383, 252, 152, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (388, 255, 153, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (386, 253, 153, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (387, 254, 153, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (392, 6, 154, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (391, 119, 154, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (390, 118, 154, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (389, 256, 154, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (394, 258, 155, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (393, 257, 155, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (396, 50, 156, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (395, 115, 156, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (399, 261, 157, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (397, 259, 157, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (398, 260, 157, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (401, 138, 158, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (400, 262, 158, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (404, 50, 159, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (403, 141, 159, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (402, 244, 159, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (406, 224, 160, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (405, 252, 160, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (409, 224, 161, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (407, 252, 161, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (408, 223, 161, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (413, 265, 162, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (410, 263, 162, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (411, 264, 162, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (412, 138, 162, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (414, 266, 163, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (422, 271, 166, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (434, 279, 170, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (445, 288, 173, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (456, 296, 177, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (469, 106, 181, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (482, 303, 186, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (494, 323, 190, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (502, 330, 193, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (508, 336, 194, 5);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (516, 342, 196, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (527, 352, 199, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (526, 258, 199, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (525, 351, 199, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (533, 358, 200, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (532, 357, 200, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (531, 356, 200, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (530, 355, 200, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (539, 361, 202, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (537, 258, 202, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (538, 360, 202, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (536, 359, 202, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (541, 362, 203, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (540, 258, 203, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (672, 446, 203, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (543, 19, 204, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (542, 363, 204, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (545, 128, 205, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (544, 364, 205, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (673, 447, 206, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (548, 19, 206, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (546, 365, 206, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (547, 366, 206, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (551, 304, 207, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (550, 368, 207, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (549, 367, 207, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (555, 372, 208, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (552, 369, 208, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (553, 370, 208, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (554, 371, 208, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (557, 374, 209, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (556, 373, 209, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (561, 371, 210, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (559, 369, 210, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (558, 372, 210, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (560, 370, 210, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (563, 19, 211, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (562, 375, 211, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (566, 118, 212, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (564, 376, 212, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (565, 106, 212, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (570, 352, 213, 4);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (569, 258, 213, 3);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (568, 378, 213, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (567, 377, 213, 1);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (572, 122, 214, 2);
+INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (571, 379, 214, 1);
+
+- Adicionei na tabela artigos uma coluna tipo_publicacao, ano_publicacao, evento/journal. Tirei atualizacao_lattes e resumo.
+
+COPY artigos(titulo, tipo_id, edicao_id, fonte, tipo_publicacao, ano_publicacao, evento_journal)
+FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/artigos.csv'
+DELIMITER ','
+CSV HEADER;
+
+3738 copiados
+
+

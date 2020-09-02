@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,3061704612929866,Cristian Tristão,10.1093/bioinformatics/btq011,ProteinWorldDB: querying radical pairwise alignments among protein sets from complete genomes,2010,Inglês,Bioinformatics (Oxford. Print),SEM_DADOS,SEM_DADOS,"['Otto, T. D. and', 'Catanho, M. and', 'Bezerra, M. and', 'Fernandes, R. M. and', 'Elias, G. S. and', 'Scaglia, A. C. and', 'Bovermann, B. and', 'Berstis, V. and', 'Lifschitz, S. and', 'de Miranda, A. B. and', 'Degrave, W. and', 'SEM_DADOS and']"

@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,5726259776195113,Wdnei Ribeiro da Paixao,10.5121/ijaia.2018.9205,Texture Classification of Sea Turtle Shell Based on Color Features: Color Histograms and Chromaticity Moments,2018,Português,International Journal of Artificial Intelligence and Applications,SEM_DADOS,SEM_DADOS,"['PAIXAO, W. R. and', 'PAIXAO, T. M. and', 'COSTA, M. B. and', 'ANDRADE, J. O. and', 'PEREIRA, F. G. and', 'KOMATI, Karin. S. and']"

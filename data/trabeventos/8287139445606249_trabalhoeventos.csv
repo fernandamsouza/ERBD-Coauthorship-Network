@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,8287139445606249,João Victor Guinelli da Silva,COMPLETO,Uma Extensão MDA para Geração Automática de Codificação SFS para Banco de Dados Geográficos (aceito),2014,Português,X Escola Regional de Banco de Dados,São Francisco do Sul,2014,"['GUINELLI, J. V. and', 'ROSA, A. S. and', 'PANTOJA, C. E. and']"
 LATTES,TRAB.EVENTO,8287139445606249,João Victor Guinelli da Silva,RESUMO,Um Protótipo Para Acompanhamento de Corrida,2013,Português,Semana de Extensão,Rio de Janeiro,2013,"['GUINELLI, J. V. and', 'LAZARIN, N. M. and', 'PANTOJA, C. E. and']"
 LATTES,TRAB.EVENTO,8287139445606249,João Victor Guinelli da Silva,RESUMO,GenDBM Tool: Uma Ferramenta Unificada Para Modelagem Conceitual de Banco de Dados Relacional e Geográfico,2014,Português,Semana de Extensão,Rio de Janeiro,2014,"['GUINELLI, J. V. and', 'ROSA, A. S. and', 'PANTOJA, C. E. and', 'LAZARIN, N. M. and']"

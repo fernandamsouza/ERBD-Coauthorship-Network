@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0456516366590574,Rodrigo Machado,RESUMO,Projeto e Desenvolvimento de Agentes de Desempenho para Clusters,2002,Português,XIV Salão de Iniciação Científica - UFRGS,Porto Alegre,2002,"['MACHADO, R.;MACHADO, RODRIGO and', 'DREHMER, G. and', 'DIVERIO, T. A. and']"
 LATTES,TRAB.EVENTO,0456516366590574,Rodrigo Machado,RESUMO,Utilização de Sistemas Multiagentes Cognitivos para Simulação Social,2002,Português,XIII Salão de Iniciação Científica - UFRGS,Porto Alegre - RS,2002,"['MACHADO, R.;MACHADO, RODRIGO and', 'BORDINI, Rafael Heitor and']"
 LATTES,TRAB.EVENTO,0456516366590574,Rodrigo Machado,RESUMO,Protótipo de Interpretador para cTVQL,2006,Português,ERBD 2006 - II Escola Regional de Banco de Dados,Passo Fundo - RS,2006,"['MACHADO, R.;MACHADO, RODRIGO and', 'MOREIRA, Álvaro Freitas and']"

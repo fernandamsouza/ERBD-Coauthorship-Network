@@ -1,3 +1,3 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,6854430172424635,Yuri Socher Bichibichi,COMPLETO,Análise de evolução de emissão de alvarás,2018,Português,Anais do XIV Escola Regional de Banco de Dados,Rio Grande,,"['BICHIBICHI, Y. S. and', 'KOZIEVITCH, N. P. and', 'CARVALHO, R. A. M. and']"
 LATTES,TRAB.EVENTO,6854430172424635,Yuri Socher Bichibichi,COMPLETO,Business Activity Clustering: A Use Case in Curitiba,2018,Inglês,Proceedings of the Latin America Data Science Workshop co-located with 44th International Conference on Very Large Data Bases (VLDB 2018),Rio de Janeiro,2018,"['BICHIBICHI, Y. S. and', 'KOZIEVITCH, N. P. and', 'DUTRA, R. and', 'ZIVIANI, A. and']"

@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0790769833478481,Tiago Stapenhorst Martins,COMPLETO,Os desafios de uma aplicação de Carpooling no contexto de uma comunidade universitária brasileira,2015,Português,Anais da XI Escola Regional de Banco de Dados,Caxias do Sul,2015,"['MARTINS, T. S. and', 'Kozievitch, N. P. and']"

@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,8974041265721813,Taisa Carla Novello,,PetroGrapher: managing petrographic data and Knowledge using an intelligent database application,2004,Inglês,Expert Systems with Applications,SEM_DADOS,SEM_DADOS,"['ABEL, Mara and', 'SILVA, Luís A. L. and', 'ROS, Luiz F. de and', 'MASTELLA, Laura S. and', 'CAMPBELL, John and', 'SEM_DADOS and']"

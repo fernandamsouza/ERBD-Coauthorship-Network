@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,8794788615369610,Cristiano Politowski,COMPLETO,Comparação de Performance entre PostgreSQL e MongoDB.,2014,Português,Anais do X Escola Regional de Banco de Dados (ERBD),"São Francisco do Sul, SC",2014,"['POLITOWSKI, C. and', 'MARAN, Vinícius and']"
 LATTES,TRAB.EVENTO,8794788615369610,Cristiano Politowski,RESUMO,Paladin: uma ferramenta de edição de Modelos de Variabilidade Ortogonais textuais,2014,Português,XXVI Salão de Iniciação Científica,Porto Alegre,2014,"['POLITOWSKI, C. and', 'FRANTZ, F. C. R. and']"
 LATTES,TRAB.EVENTO,8794788615369610,Cristiano Politowski,RESUMO_EXPANDIDO,Uma ferramenta de apoio à edição e validação de OVMs textuais para dar suporte ao processo de análise automática,2014,Português,Seminário de Iniciação Científica - Ciências Exatas e da Terra,Santa Rosa,2014,"['POLITOWSKI, C. and', 'FRANTZ, F. C. R. and', 'FRANTZ, R. Z. and']"

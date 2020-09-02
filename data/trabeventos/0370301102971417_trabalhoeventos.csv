@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0370301102971417,Luiz Celso Gomes Junior,COMPLETO,A framework to process complex biodiversity queries,2008,Inglês,Proceedings of the 2008 ACM symposium on Applied computing,Ceara,2008,"['Jaudete Daltio and', 'Claudia B. Medeiros and', 'GOMES, L. and', 'Thomas Michael Lewinsohn and']"
 LATTES,TRAB.EVENTO,0370301102971417,Luiz Celso Gomes Junior,COMPLETO,Ecologically-aware Queries for Biodiversity Research,2007,Inglês,Proceedings of the IX Brazilian Symposium on Geoinformatics,Campos do Jordao,2007,"['GOMES, L. and', 'Claudia B. Medeiros and']"
 LATTES,TRAB.EVENTO,0370301102971417,Luiz Celso Gomes Junior,COMPLETO,Sensor Data Publication on the Web for Scientific Applications,2008,Português,"WEBIST 2008, Proceedings of the Fourth International Conference on Web Information Systems and Technologies","Madeira, Portugal",2008,"['Gilberto Zonta Pastorello Jr. and', 'GOMES, L. and', 'Claudia B. Medeiros and', 'André Santanchè and']"

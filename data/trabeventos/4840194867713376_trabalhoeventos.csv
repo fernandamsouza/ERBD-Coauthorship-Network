@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,4840194867713376,Eduardo Studzinski Estima de Castro,RESUMO,Um Banco de Dados Inteligentes para Petrografia Sedimentar: Módulo de Extração de Descrição de Amostras utilizando XML,2003,Português,Resumos do XV Salão de Iniciação Científica e da XII Feira de Iniciação Científica,Porto Alegre,2003,"['CASTRO, E.S.E. and', 'ABEL, M. and', 'ROS, L.F. and']"
 LATTES,TRAB.EVENTO,4840194867713376,Eduardo Studzinski Estima de Castro,RESUMO,PetroQuery: Uma ferramente para consulta e navegação sobre ontologias,2004,Português,Resumos do XVI Salão de Iniciação Científica e da XIII Feira de Iniciação Científica,Porto Alegre,2004,"['CASTRO, E.S.E. and', 'ABEL, M. and']"
 LATTES,TRAB.EVENTO,4840194867713376,Eduardo Studzinski Estima de Castro,RESUMO,PetroQuery: Uma ferramente para consulta e navegação sobre ontologias,2005,Português,Anais / I Escola Regional de Banco de Dados,Porto Alegre,2005,"['CASTRO, E.S.E. and', 'MASTELLA, L. and', 'ABEL, M. and', 'ROS, L.F. and']"

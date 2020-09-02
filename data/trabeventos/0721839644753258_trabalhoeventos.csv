@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0721839644753258,Gustavo Zanini Kantorski,COMPLETO,Heterogeneous Database Interoperability using the WWW,2000,Inglês,XV SImpósio Brasileiro de Banco de Dados,João Pessoa,2000,"['KANTORSKI, G. Z.;KANTORSKI, GUSTAVO ZANINI and', 'RIBEIRO, C. H. F. and']"
 LATTES,TRAB.EVENTO,0721839644753258,Gustavo Zanini Kantorski,COMPLETO,Estudo sobre abordagens abertas de conexão interface comum e protocolo comum,1997,Português,Trbalho Individual,Porto Alegre,1997,"['KANTORSKI, G. Z.;KANTORSKI, GUSTAVO ZANINI and', 'CASTILHO, J. M. V. and']"
 LATTES,TRAB.EVENTO,0721839644753258,Gustavo Zanini Kantorski,COMPLETO,Ambiente de Workflow para Controle de Métricas no Processo de Desenvolvimento de Software,2003,Português,II Simpósio de Informática da Região Centro do RS,Santa Maria,2003,"['KANTORSKI, G. Z.;KANTORSKI, GUSTAVO ZANINI and']"

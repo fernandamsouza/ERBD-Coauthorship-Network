@@ -19,9 +19,11 @@ from pyexcel.cookbook import merge_all_to_a_book
 import glob
 FILE_DIR = Path(__file__).parent
 
-caminho1 = (FILE_DIR/"../scraperXMLtoCSV/csv_producao/tudo_all.csv").resolve()
+caminho1 = (FILE_DIR/"../scraperXMLtoCSV/data/publicacoes_tudo/tudo_all.csv").resolve()
+caminho4 = (FILE_DIR/"../scraperXMLtoCSV/Banco PostgreSQL/autores.csv").resolve()
 caminho2 = (FILE_DIR/"../scraperXMLtoCSV/csv_producao/formacao_all.csv").resolve()
 caminho3 = (FILE_DIR/"../scraperXMLtoCSV/csv_producao/teste.xlsx").resolve()
+pathfilename2 = (FILE_DIR/"../scraperXMLtoCSV/Banco PostgreSQL/autoresartigo.csv").resolve()
 
 
 def getJuncao():
@@ -43,7 +45,6 @@ def getJuncao():
 
     csv_eventos = glob.glob('./data/trabeventos/*trabalhoeventos.csv')
     df_trabevento = pd.DataFrame()
-    lista_id = []
     for i in range(len(csv_eventos)):
         dataFrameAux = pd.read_csv(csv_eventos[i], header=0)
         df_trabevento = df_trabevento.append(dataFrameAux, ignore_index=False)
@@ -123,6 +124,12 @@ def getJuncao():
     frames = [df_periodico, df_trabevento, df_chapter]
     dffinal = pd.concat (frames)
     dffinal.to_csv(pathfilename, index=False)
+
+    # Juntar pro bd
+    df_tudo =  pd.read_csv(caminho1)
+    df_nome =  pd.read_csv(caminho4)
+    dftrabevento = pd.merge(df_tudo, df_nome, on='ID_LATTES')
+    dftrabevento.to_csv(pathfilename2, index=False)
 
     # Planilha linha do tempo (titulação)
     # ------------------------------------------------------------

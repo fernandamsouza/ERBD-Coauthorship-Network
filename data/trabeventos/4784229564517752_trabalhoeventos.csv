@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,4784229564517752,Cláudio de Lima,RESUMO,Um Processo de Conversão de Esquemas Conceituais ERE para Esquemas Lógicos XML,2008,Português,Sessão de Pôsteres,Campinas,2008,"['LIMA, C.;DE LIMA, CLAUDIO and', 'MELLO, R. S. and', 'SCHROEDER, R. and']"
 LATTES,TRAB.EVENTO,4784229564517752,Cláudio de Lima,COMPLETO,Um Estudo sobre Modelagem Lógica para Bancos de Dados NoSQL,2015,Português,XI Escola Regional de Banco de Dados - ERBD,Caxias do Sul-RS,2015,"['LIMA, C.;DE LIMA, CLAUDIO and', 'MELLO, R. S. and']"
 LATTES,TRAB.EVENTO,4784229564517752,Cláudio de Lima,COMPLETO,A workload-driven logical design approach for NoSQL document databases,2015,Português,Proceedings of the 17th International Conference on Information Integration and Web-based Applications &amp;Services - iiWAS '15,Brussels,,"['DE LIMA, CLAUDIO and', 'DOS SANTOS MELLO, RONALDO and']"

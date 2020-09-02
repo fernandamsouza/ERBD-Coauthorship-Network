@@ -36,16 +36,16 @@ df_idlist = lerListaIds()
 for nid in range(len(df_idlist)):
     zipfilename = str(df_idlist.iloc[nid, 0]) + '.zip'
     getartigospublicados(zipfilename)
-    getnomecompleto(zipfilename)
-    getformacao(zipfilename)
+    #getnomecompleto(zipfilename)
+    #getformacao(zipfilename)
     getartigoseventos(zipfilename)
-    getlocal(zipfilename)
-    getatuacoes(zipfilename)
-    getcapit(zipfilename)
+    #getlocal(zipfilename)
+    #getatuacoes(zipfilename)
+    #getcapit(zipfilename)
 getJuncao()
 getConvert()
-getWordcloud()
+#getWordcloud()
 #getDedupe() # Apenas vai ser usado após organização dos dados
 
-from grafo_coautoria_eventos import *
+#from grafo_coautoria_eventos import *
 

@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,3646026898257545,Thiago Cassio Krug,RESUMO,Extração de Relacionamentos a Partir de Sites da Wikipedia,2012,Português,"Anais do Salão Internacional de Ensino, Pesquisa e Extensão",Bagé - RS,2012,"['KRUG, T. C. and', 'MERGEN, S. L. S. and']"
 LATTES,TRAB.EVENTO,3646026898257545,Thiago Cassio Krug,COMPLETO,Uma Proposta de Entity Ranking Baseada no Uso de Entidades como Objetos de Consulta,2013,Português,Escola Regional de Banco de Dados,Camboriú,2013,"['KRUG, T. C. and', 'MERGEN, S. L. S. and']"
 LATTES,TRAB.EVENTO,3646026898257545,Thiago Cassio Krug,RESUMO,Leitura Literária no Pampa,2011,Português,"Anais do Salão Internacional de Ensino, Pesquisa e Extensão",Uruguaiana - RS,2011,"['SOARES, E. L. and', 'KRUG, T. C. and', 'GUTTIER, R. and']"

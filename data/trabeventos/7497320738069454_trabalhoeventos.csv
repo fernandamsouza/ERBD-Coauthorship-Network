@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,7497320738069454,Edimar Manica,COMPLETO,BDTC ? Uma Biblioteca Digital para Trabalhos de Conclusão de Curso,2007,Português,VII SIMPÓSIO DE INFORMÁTICA DO PLANALTO MÉDIO,Passo Fundo,2007,"['CERVI, C. R. and', 'MANICA, Edinei and', 'MANICA, Edimar and', 'DORNELES, C. F. and', 'PAVAN, W. and']"
 LATTES,TRAB.EVENTO,7497320738069454,Edimar Manica,COMPLETO,Um Mecanismo Semi-automático de Auto-Arquivamento de Documentos em uma Biblioteca Digital,2007,Português,anais do III Workshop on Digital Libraries (WDL - em conjunto com WebMedia),"Gramado, RS",2007,"['MANICA, Edimar and', 'CERVI, C. R. and', 'DORNELES, C. F. and']"
 LATTES,TRAB.EVENTO,7497320738069454,Edimar Manica,RESUMO_EXPANDIDO,Extraindo metadados de Documentos PDF usando um template XML,2007,Português,anais da XVII Mostra de Iniciação Científica,Passo Fundo,2007,"['MANICA, Edimar and', 'CERVI, C. R. and', 'DORNELES, C. F. and']"

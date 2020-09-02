@@ -1,4 +1,4 @@
-FONTE,TIPO,ID,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,8974041265721813,Taisa Carla Novello,COMPLETO,Desenvolvimento de Software Educacional Para Resolver Problemas de Programação Linear,1999,Português,A Transdiciplinaridade da Pesquisa na Universidade,Santo Ângelo,1999,['SEM_DADOS and']
 LATTES,TRAB.EVENTO,8974041265721813,Taisa Carla Novello,COMPLETO,SEM_DADOS,2002,Inglês,"Intelligent Computing in the Petroleum Industry   ICPI 2002   Nov 25-26, 2002 Mexico City",Mexico City,2002,"['ABEL, Mara and', 'SILVA, Luís A. L. and', 'ROS, Luiz F. de and', 'MASTELLA, Laura S. and', 'CAMPBELL, John and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,8974041265721813,Taisa Carla Novello,COMPLETO,PetroGrapher: uma aplicação de banco de dados inteligente para a descrição petrográfica e interpretação petrogenética de rochas-reservatório de petróleo,2003,Português,,Rio de Janeiro,2003,"['ROS, Luiz F. de and', 'ABEL, Mara and', 'MASTELLA, Laura S. and', 'SILVA, Luís A. L. and', 'SEM_DADOS and']"
