@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,6296010765327790,Edson Murakami,COMPLETO,Building Infrastructure for a Component-Based Transformation System,2000,Inglês,SCI2000/ISAS2000 Proceedings,Orlando,2000,"['MURAKAMI, E. and', 'PRADO, A. F. and', 'ABRAHAO, S. M. and', 'SANTANNA, M. and']"
 LATTES,TRAB.EVENTO,6296010765327790,Edson Murakami,COMPLETO,Um Modelo de Memória Virtual para Armazenamento e Recuperação de Grandes Árvores de Sintaxe Abstrata,2000,Português,IDEAS'2000 Proceedings,México,2000,"['MURAKAMI, E. and', 'PRADO, A. F. and']"
 LATTES,TRAB.EVENTO,6296010765327790,Edson Murakami,COMPLETO,Um Modelo de Memória Virtual em Java para Sistemas de Transformação de Software,1999,Português,Memorias,Assunción,1999,"['MURAKAMI, E. and', 'PRADO, A. F. and']"

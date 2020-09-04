@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,8488632251760640,Marcos Vinicius de Moura Lima,COMPLETO,Uma Ferramenta Online para Execução de Scripts em SQL,2017,Português,Anais da XIII Escola Regional de Banco de Dados,Passo Fundo,2017,"['LIMA, M. V. M.;LIMA, MARCOS VINICIUS DE MOURA and', 'RODEGHERI, P. R. and', 'BEZ, J. L. and', 'TONIN, N. A. and']"
 LATTES,TRAB.EVENTO,8488632251760640,Marcos Vinicius de Moura Lima,COMPLETO,Um Chatterbot para Auxiliar Estudantes na Disciplina de Inteligência Artificial,2017,Português,Anais do III CONIGTI,Erechim,2017,"['LIMA, M. V. M.;LIMA, MARCOS VINICIUS DE MOURA and', 'BLANGER, L. and', 'ZANIN, F. A. and', 'RODEGHERI, P. R. and']"
 LATTES,TRAB.EVENTO,8488632251760640,Marcos Vinicius de Moura Lima,COMPLETO,Development and Evaluation of a Predictive Model for Classification of Potentially Cancerous Cells Using Neural Networks,2017,Inglês,Anais do III CONIGTI,Erechim,2017,"['BLANGER, L. and', 'LIMA, M. V. M.;LIMA, MARCOS VINICIUS DE MOURA and']"

@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0729503635411770,André Luciano Rakowski,RESUMO,Piezoresistive Sensor Made of Graphit Films Deposited by Direct Friction,2015,Inglês,SMCTSM - ICSMV - Proceedings,Puebla - México,2015,"['RAKOWSKI, A. L. and', 'VALDIERO, A. C. and', 'RASIA, L. A. and', 'GABBI, R. and', 'HAMMES, G. and', 'SCARTON, L. and']"
 LATTES,TRAB.EVENTO,0729503635411770,André Luciano Rakowski,COMPLETO,Virtual Plataform for Piezoresistor Project,2016,Inglês,IBERSENSOR 2016,Viñas del Mar - Chile,2016,"['RASIA, L. A. and', 'RAKOWSKI, A. L. and', 'MEOTTI, J. M. and', 'VALDIERO, A. C. and']"
 LATTES,TRAB.EVENTO,0729503635411770,André Luciano Rakowski,COMPLETO,Comparação entre Diferentes Implementações de BK-trees para o Problema de Busca por Intervalo,2018,Português,XIV Escola Regional de Banco de Dados,Rio Grande - RS,2018,"['RAKOWSKI, A. L. and', 'MERGEN, S. L. S. and', 'BERWALDT, N. L. P. and', 'SCHMAEDECK, M. V. and']"

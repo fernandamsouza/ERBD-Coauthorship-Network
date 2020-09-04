@@ -160,7 +160,7 @@ def getartigospublicados(zipname):
                     'TITULO': titulo_periodico,
                     'ANO': ano_periodico,
                     'LANG': linguagem_periodico,
-                    'EVENTO/JOURNAL': journal_periodico,
+                    'EVENTO/JOURNAL/LIVRO': journal_periodico,
                     'CIDADE_EVENTO': cidade_evento,
                     'ANO_EVENTO': ano_evento,
                     'AUTORES': autores_periodico })
@@ -319,7 +319,7 @@ def getartigoseventos(zipname):
             'TITULO': titulo_artigo_evento,
             'ANO': ano_artigo_evento,
             'LANG': linguagem_artigo_evento,
-            'EVENTO/JOURNAL': nome_evento,
+            'EVENTO/JOURNAL/LIVRO': nome_evento,
             'CIDADE_EVENTO': cidade_evento,
             'ANO_EVENTO': ano_evento,
             'AUTORES': autores_artigo_evento})
@@ -918,6 +918,7 @@ def getcapit(zipname):
             linguagem_capitulo = []
             editora_capitulo = []
             autores_capitulo = []
+            nome_livro = []
             # VERIFICANDO se ha livros e capitulos
             if len(livros_e_capitulos) == 0:
                 print('Capitulos publicados nao encontrados.')
@@ -959,6 +960,13 @@ def getcapit(zipname):
                         # detalhamento do livro
                         detalhamento_do_capitulo = capitulo_de_livro_publicado[i].find_all('detalhamento-do-capitulo')
                         det_aux = str(detalhamento_do_capitulo)
+                        # definindo o nome do livro
+                        data_campo = re.search('titulo-do-livro=\"(.*)\"', det_aux)
+                        if data_campo is None:
+                            resultado = 'SEM DADOS'
+                        else:
+                            resultado = data_campo.group(1)
+                        nome_livro.append(resultado)
                         # definindo editora
                         data_campo = re.search('nome-da-editora=\"(.*)\" numero-da-edicao-r', det_aux)
                         if data_campo is None:
@@ -986,11 +994,12 @@ def getcapit(zipname):
                     df_id = pd.DataFrame ({
                     'FONTE': lattes_lattes,
                     'TIPO': capitulo,
-                    'ID': id_lattes,
+                    'ID_LATTES': id_lattes,
                     'NOME': nome_completo})
 
                     df_capit = pd.DataFrame({
                     'TITULO': titulo_capitulo,
+                    'EVENTO/JOURNAL/LIVRO': nome_livro,
                     'ANO': ano_capitulo,
                     'LANG': linguagem_capitulo,
                     'EDITORA': editora_capitulo,

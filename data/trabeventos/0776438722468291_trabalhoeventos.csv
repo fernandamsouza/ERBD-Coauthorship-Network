@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0776438722468291,Geomar André Schreiner,COMPLETO,Um Estudo das Abordagens para Extração de Esquemas XML,2014,Português,ERBD 2014,São Francisco do Sul,2014,"['SCHREINER, G. A.;SCHREINER, GEOMAR A.;SCHREINER, GEOMAR ANDRE and', 'DUARTE, D. and']"
 LATTES,TRAB.EVENTO,0776438722468291,Geomar André Schreiner,RESUMO_EXPANDIDO,pExtract: Uma abordagem probabilistica para a extração de esquemas de documentos XML,2014,Português,XXIX Simpósio Brasileiro de Banco de Dados,Curitiba,2014,"['SCHREINER, G. A.;SCHREINER, GEOMAR A.;SCHREINER, GEOMAR ANDRE and', 'DUARTE, D. and']"
 LATTES,TRAB.EVENTO,0776438722468291,Geomar André Schreiner,COMPLETO,Análise de Abordagens para Interoperabilidade entre Bancos de Dados Relacionais e Bancos de Dados NoSQL,2015,Português,XI Escola Regional de Banco de Dados (XI ERBD),Caxias do Sul,2015,"['SCHREINER, G. A.;SCHREINER, GEOMAR A.;SCHREINER, GEOMAR ANDRE and', 'DUARTE, D. and', 'MELLO, R. S. and']"

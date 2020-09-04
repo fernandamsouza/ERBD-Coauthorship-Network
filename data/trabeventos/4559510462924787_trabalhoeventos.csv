@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,4559510462924787,Joedeson Fontana Junior,RESUMO,Um estudo dos frameworks de recomendação,2016,Português,Um estudo dos frameworks de recomendação,Santa Maria - RS,2016,"['FONTANA JUNIOR, J. and', 'LICHTNOW, D. and']"
 LATTES,TRAB.EVENTO,4559510462924787,Joedeson Fontana Junior,RESUMO,Explorando as possibilidades de integração entre Sistemas de Informação Geográfica e Sistemas de Recomendação,2015,Português,Explorando as possibilidades de integração entre Sistemas de Informação Geográfica e Sistemas de Recomendação,Santa Maria - RS,2015,"['FONTANA JUNIOR, J. and', 'LICHTNOW, D. and']"
 LATTES,TRAB.EVENTO,4559510462924787,Joedeson Fontana Junior,COMPLETO,Combinando técnicas de recomendação e Smart Posters,2017,Português,Combinando técnicas de recomendação e Smart Posters,Passo Fundo - RS,2017,"['LICHTNOW, D. and', 'FONTANA JUNIOR, J. and', 'GRACIOLI, C. V. F. and']"

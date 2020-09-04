@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,6405951782839858,Renato Fileto,DLNotes2: Ferramenta de Anotações Estruturadas e Semânticas voltada ao Ensino de Literatura,2013,Português,,"['MITTMAN, A.', 'WILLRICH, R.', 'Fileto, R.']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,6405951782839858,Renato Fileto,DLNotes2: Ferramenta de Anotações Estruturadas e Semânticas voltada ao Ensino de Literatura,Escritorios electrónicos para las literaturas: Nuevas herramientas digitales para la anotación colaborativa,2013,Português,,"['MITTMAN, A.', 'WILLRICH, R.', 'Fileto, R.']"

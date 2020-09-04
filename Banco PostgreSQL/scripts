@@ -866,4 +866,13 @@ CSV HEADER;
 
 3738 copiados
 
+COPY autoresartigo(autor_id, artigo_id)
+FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/autoresartigo.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY 3739
+
+
+
 

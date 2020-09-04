@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,3867942762661182,Renata Galante,,Temporal and Versioning Model for Schema Evolution in Object-Oriented Databases,2005,Inglês,Data &amp; Knowledge Engineering,SEM_DADOS,SEM_DADOS,"['GALANTE, R.;Galante, Renata and', 'SANTOS, Clesio Saraiva dos and', 'EDELWEISS, Nina and', 'MOREIRA, Álvaro Freitas and']"
 LATTES,PERIODICO,3867942762661182,Renata Galante,,Type-safe Versioned Object Query Language. (Versão estendida do artigo publicado no SBLP 2006),2006,Inglês,Journal of Universal Computer Science (Print),SEM_DADOS,SEM_DADOS,"['MACHADO, Rodrigo and', 'MOREIRA, Álvaro Freitas and', 'GALANTE, R.;Galante, Renata and', 'MORO, Mirella Moura and']"
 LATTES,PERIODICO,3867942762661182,Renata Galante,,TVX - Time and Versions in XML,2007,Inglês,Revista de Informática Teórica e Aplicada,SEM_DADOS,SEM_DADOS,"['SANTOS, Rodrigo Gasparoni dos and', 'GALANTE, R.;Galante, Renata and', 'EDELWEISS, Nina and']"

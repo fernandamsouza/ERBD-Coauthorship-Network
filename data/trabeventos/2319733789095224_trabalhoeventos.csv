@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,2319733789095224,Henrico Bertini Brum,RESUMO,Pesquisa de Conhecimento e Utilização de Sistemas Operacionais Livres,2011,Português,Resumos publicados em anais de congressos,Uruguaiana,2011,"['BRUM, H. B. and']"
 LATTES,TRAB.EVENTO,2319733789095224,Henrico Bertini Brum,COMPLETO,Extração de nomes de pessoas baseado em etapas de etiquetamento,2013,Português,IX Escola Regional de Banco de Dados,Camboriú,2013,"['BRUM, H. B. and', 'MERGEN, S. L. S. and']"
 LATTES,TRAB.EVENTO,2319733789095224,Henrico Bertini Brum,RESUMO_EXPANDIDO,Análise de sentimentos para português brasileiro usando redes neurais recursivas,2015,Português,STIL 2015,Natal,2015,"['BRUM, H. B. and', 'KEPLER, F. N. and']"

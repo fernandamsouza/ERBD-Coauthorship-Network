@@ -41,7 +41,7 @@ for nid in range(len(df_idlist)):
     getartigoseventos(zipfilename)
     #getlocal(zipfilename)
     #getatuacoes(zipfilename)
-    #getcapit(zipfilename)
+    getcapit(zipfilename)
 getJuncao()
 getConvert()
 #getWordcloud()

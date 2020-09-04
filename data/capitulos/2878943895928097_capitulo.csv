@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,2878943895928097,Edécio Fernando Iepsen,Análise de S.O.R. para o Setor Editorial do Diário Popular,1997,Português,EDUCAT,"['IEPSEN, Edécio F.', 'Telles, Cléber L. S.']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,2878943895928097,Edécio Fernando Iepsen,Análise de S.O.R. para o Setor Editorial do Diário Popular,Redes de Computadores &amp; Arquiteturas Tecnologias Avançadas,1997,Português,EDUCAT,"['IEPSEN, Edécio F.', 'Telles, Cléber L. S.']"

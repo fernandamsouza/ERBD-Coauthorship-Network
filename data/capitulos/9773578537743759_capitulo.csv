@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,9773578537743759,Lucas Silveira,O padrão brasileiro de assinatura digital e uma análise sobre interoperabilidade: A assinatura digital no Processo Judicial Eletrônico,2014,Português,Conceito Editorial,['SEM_DADOS']
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,9773578537743759,Lucas Silveira,O padrão brasileiro de assinatura digital e uma análise sobre interoperabilidade: A assinatura digital no Processo Judicial Eletrônico,"DIREITO, GOVERNANÇA, E TECNOLOGIA: princípios, políticas e normas do Brasil e da Espanha",2014,Português,Conceito Editorial,['SEM_DADOS']

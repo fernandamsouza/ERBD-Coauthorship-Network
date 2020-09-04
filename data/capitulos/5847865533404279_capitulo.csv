@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,5847865533404279,Rodrigo Moreira,Enabling Multi-domain and End-to-End Slice Orchestration for Virtualization Everything Functions (VxFs),2020,Inglês,Springer International Publishing,"['MOREIRA, RODRIGO', 'Rosa, Pedro Frosi', 'Aguiar, Rui Luis Andrade', 'de Oliveira Silva, Flávio']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,5847865533404279,Rodrigo Moreira,Enabling Multi-domain and End-to-End Slice Orchestration for Virtualization Everything Functions (VxFs),Advances in Intelligent Systems and Computing,2020,Inglês,Springer International Publishing,"['MOREIRA, RODRIGO', 'Rosa, Pedro Frosi', 'Aguiar, Rui Luis Andrade', 'de Oliveira Silva, Flávio']"

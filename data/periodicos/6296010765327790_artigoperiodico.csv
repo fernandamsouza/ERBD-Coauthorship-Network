@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,6296010765327790,Edson Murakami,,Rastreabilidade da informação nas cadeias produtivas: padrões de trocas de dados,2005,Português,Revista Brasileira de Agroinformática,SEM_DADOS,SEM_DADOS,"['MURAKAMI, E. and', 'SARAIVA, A. M. and']"
 LATTES,PERIODICO,6296010765327790,Edson Murakami,,Interoperabilidade no agronegócio: o uso de XML na indústria da cana-de-açúcar,2012,Português,"V@rvItu - Revista de Ciência, Tecnologia e Cultura da FATEC Itu",SEM_DADOS,SEM_DADOS,"['SANTOS, F. de P. and', 'MURAKAMI, E. and']"
 LATTES,PERIODICO,6296010765327790,Edson Murakami,10.1016/j.compag.2006.12.010,An infrastructure for the development of distributed service-oriented information systems for precision agriculture,2007,Inglês,Computers and Electronics in Agriculture,SEM_DADOS,SEM_DADOS,"['MURAKAMI, E. and', 'SARAIVA, A and', 'RIBEIROJUNIOR, L and', 'CUGNASCA, C and', 'HIRAKAWA, A and', 'CORREA, P and']"

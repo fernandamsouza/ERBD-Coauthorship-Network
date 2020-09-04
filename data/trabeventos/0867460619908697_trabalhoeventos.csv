@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,0867460619908697,Rodrigo Gonçalves,COMPLETO,Improving XML instances comparison with preprocessing algorithms,2007,Inglês,Database and Expert Systems Applications,Regensburg,2007,"['GONÇALVES, R. and', 'MELLO, Ronaldo dos S. and']"
 LATTES,TRAB.EVENTO,0867460619908697,Rodrigo Gonçalves,COMPLETO,Um framework para suporte à preparação e comparação de similaridade de documentos XML,2007,Português,Escola Regional de Banco de Dados,Caxias do Sul,2007,"['GONÇALVES, R. and', 'MELLO, Ronaldo dos S. and']"
 LATTES,TRAB.EVENTO,0867460619908697,Rodrigo Gonçalves,COMPLETO,Similaridade entre documentos semi-estruturados,2006,Português,Anais II Escola Regional de Banco de Dados,Passo Fundo,2006,"['GONÇALVES, R. and', 'MELLO, Ronaldo dos S. and']"

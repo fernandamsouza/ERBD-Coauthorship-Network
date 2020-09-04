@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,1217067328251304,Sergio Luis Dill,COMPLETO,Uma Metodologia para Desenvolvimento de Data Warehouse,2005,Português,Anais do II SBSI,Florianopolis,2005,"['KELM, Martinho Luis and', 'ABREU, Aline França de and', 'PADOIN, Edson Luiz and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,1217067328251304,Sergio Luis Dill,COMPLETO,Business Intelligence Aplicado em Saúde Pública,2005,Português,Anais do I congresso sul catarinense de computação,Crisciuma,2005,"['BOTH, Eder and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,1217067328251304,Sergio Luis Dill,RESUMO_EXPANDIDO,Compatibilização do Paradigma Relacional com o Paradigma Orientado a Objetos,2005,Português,Anais do I congresso Sul Catarinense de Computação,Criscima,2005,"['HOPPEN, Marcelo Maboni and', 'SEM_DADOS and']"

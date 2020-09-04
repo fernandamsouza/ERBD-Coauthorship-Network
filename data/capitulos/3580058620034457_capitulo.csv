@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,3580058620034457,Bruno Machado Agostinho,Omniconn: An Architecture for Heterogeneous Devices Interoperability on Industrial Internet of Things,2020,Português,Springer International Publishing,"['AGOSTINHO, BRUNO MACHADO', 'de Souza, Cauê Baasch', 'GOMES, FERNANDA OLIVEIRA', 'Pinto, Alex Sandro Roschildt', 'Dantas, Mario Antônio Ribeiro']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,3580058620034457,Bruno Machado Agostinho,Omniconn: An Architecture for Heterogeneous Devices Interoperability on Industrial Internet of Things,Lecture Notes in Networks and Systems,2020,Português,Springer International Publishing,"['AGOSTINHO, BRUNO MACHADO', 'de Souza, Cauê Baasch', 'GOMES, FERNANDA OLIVEIRA', 'Pinto, Alex Sandro Roschildt', 'Dantas, Mario Antônio Ribeiro']"

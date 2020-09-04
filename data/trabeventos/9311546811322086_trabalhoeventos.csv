@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,9311546811322086,Jolvani Morgan,RESUMO_EXPANDIDO,Um Estudo sobre Programação Distribuída utilizando as Arquiteturas CORBA e RMI,2000,Português,,Cruz Alta,2000,"['MORGAN, Jolvani and']"
 LATTES,TRAB.EVENTO,9311546811322086,Jolvani Morgan,COMPLETO,Banco de Dados para o Núcleo de Pesquisa e Aplicação de Geotecnologias em Desastres Naturais e Eventos Extremos do Centro Regional Sul de Pesquisas Espaciais do INPE,2009,Português,V Escola Regional de Banco de Dados,Ijuí,2009,"['MORGAN, Jolvani and']"
 LATTES,TRAB.EVENTO,9311546811322086,Jolvani Morgan,COMPLETO,Ferramenta de Conversão de Imagens JPEG em Arquivo Texto para Programação de Máquinas CNC,2007,Português,VII SIPM 2007 - Simpósio de Informática do Planalto Médio,Passo Fundo,2007,"['MORGAN, Jolvani and', 'SILVA, Alexandre Dias da and']"

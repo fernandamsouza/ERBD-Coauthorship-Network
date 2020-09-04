@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,3061704612929866,Cristian Tristão,COMPLETO,WebPath - Uma Ferramenta para Mineração e Visualização de padrões de Navegação do Uso da Web,2004,Português,,Porto Alegre,2004,"['TEIXEIRA, Vantuir Pereira and', 'BECKER, Karin and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,3061704612929866,Cristian Tristão,COMPLETO,Aplicação de Técnicas de Mineração do Uso da Web para Análise de Processos de Negócio: um Estudo de Caso,2006,Português,II Escola Regional de Banco de Dados,Passo Fundo,2006,"['BECKER, Karin and', 'SEM_DADOS and']"
 LATTES,TRAB.EVENTO,3061704612929866,Cristian Tristão,COMPLETO,Recursos para Análise de Processos de Negócio baseados nos Fluxos de Execução,2006,Português,V Workshop de Teses e Dissertações em Banco de Dados (WTDBD),Florianópolis,2006,"['BECKER, Karin and', 'SEM_DADOS and']"

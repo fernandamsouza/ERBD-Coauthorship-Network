@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,2339717419262914,Leandro Castoldi López,COMPLETO,Método TPC-H para sintonia em SGBDs livres,2006,Português,II Escola Regional de Banco de Dados,Passo Fundo,2006,"['LÓPEZ, L. C. and', 'Sérgio Dill and', 'Edson Padoin and']"
 LATTES,TRAB.EVENTO,2339717419262914,Leandro Castoldi López,RESUMO,Sintonia em Banco de Dados sob Sistemas de Arquivos livres,2005,Português,I Congresso Sul Catarinense de Computação,Criciúma,2005,"['LÓPEZ, L. C. and', 'Sérgio Dill and']"
 LATTES,TRAB.EVENTO,2339717419262914,Leandro Castoldi López,COMPLETO,A influência do tipo de Sistema de Arquivos no desempenho de um SGBD - Um Estudo de Caso,2005,Português,XV Simpósio Regional de Informática,Santo Ângelo,2005,"['LÓPEZ, L. C. and', 'Sérgio Dill and']"

@@ -1,3 +1,3 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,7243777210978499,Darlan Florêncio de Arruda,Towards a Meta-model for Requirements-Driven Information for Internal Stakeholders,2019,Português,Springer International Publishing,"['NOORWALI, IBTEHAL', 'MADHAVJI, NAZIM H.', 'ARRUDA, DARLAN', 'Ferrari, Remo']"
-LATTES,CAP.LIVRO,7243777210978499,Darlan Florêncio de Arruda,State of Requirements Engineering Research in the Context of Big Data Applications,2018,Português,Springer International Publishing,"['ARRUDA, DARLAN', 'MADHAVJI, NAZIM H.']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,7243777210978499,Darlan Florêncio de Arruda,Towards a Meta-model for Requirements-Driven Information for Internal Stakeholders,Lecture Notes in Computer Science,2019,Português,Springer International Publishing,"['NOORWALI, IBTEHAL', 'MADHAVJI, NAZIM H.', 'ARRUDA, DARLAN', 'Ferrari, Remo']"
+LATTES,CAP.LIVRO,7243777210978499,Darlan Florêncio de Arruda,State of Requirements Engineering Research in the Context of Big Data Applications,Lecture Notes in Computer Science,2018,Português,Springer International Publishing,"['ARRUDA, DARLAN', 'MADHAVJI, NAZIM H.']"

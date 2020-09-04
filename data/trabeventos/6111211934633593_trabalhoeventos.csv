@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,6111211934633593,Renato Deggau,COMPLETO,Interacting with Spatial Data Warehouses via Semantic Descriptions,2010,Inglês,Proceedings of the XI Brazilian Symposium on Geoinformatics,Campos do Jordão,2010,"['DEGGAU, R. and', 'FILETO, R. and', 'PEREIRA, D. and', 'MERINO, E. A. D. and']"
 LATTES,TRAB.EVENTO,6111211934633593,Renato Deggau,COMPLETO,Avaliação de usabilidade de interface humano-computador para análise de informação em data warehouses espaciais,2010,Português,Congresso Brasileiro de Ergonomia (Abergo),Rio de Janeiro,2010,"['PEREIRA, D. and', 'MERINO, E. A. D. and', 'DEGGAU, R. and', 'FILETO, R. and']"
 LATTES,TRAB.EVENTO,6111211934633593,Renato Deggau,COMPLETO,Enriquecendo Data Warehouses Espaciais com Descrições Semânticas,2009,Português,Workshop de Teses e Dissertações em Bancos de Dados (WTDBD),Fortaleza,2009,"['DEGGAU, R. and', 'FILETO, R. and']"

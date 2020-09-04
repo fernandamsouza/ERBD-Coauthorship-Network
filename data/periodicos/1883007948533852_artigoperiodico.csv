@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,1883007948533852,José Guilherme Camargo de Souza,,Exploring molecular networks using MONET Ontology,2006,Inglês,Genetics and Molecular Research,SEM_DADOS,SEM_DADOS,"['SILVA, João Paulo Müller da and', 'LEMKE, N. and', 'MOMBACH, J. C. M. and', 'SINIGAGLIA, Marialva and', 'VIEIRA, R. and', 'SEM_DADOS and']"
 LATTES,PERIODICO,1883007948533852,José Guilherme Camargo de Souza,,An Integrated Model for Cellular Analysis,2005,Inglês,Genetics and Molecular Research,SEM_DADOS,SEM_DADOS,"['LEMKE, N. and', 'BATTISTELLA, E. and', 'BARCELLOS, C. K. and', 'MOMBACH, J. C. M. and', 'SEM_DADOS and']"
 LATTES,PERIODICO,1883007948533852,José Guilherme Camargo de Souza,,Bioinformatics: A Growing Field for Ontologies,2005,Português,Revista Tecnologia da Informação,SEM_DADOS,SEM_DADOS,"['BATTISTELLA, E. and', 'FERREIRA, R. A. and', 'VIEIRA, R. and', 'MOMBACH, J. C. M. and', 'LEMKE, N. and', 'SEM_DADOS and']"

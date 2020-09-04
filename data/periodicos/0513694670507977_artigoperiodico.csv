@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,0513694670507977,Elisa Mannes,10.1016/j.comcom.2015.04.005,Firefly-inspired and robust time synchronization for cognitive radio ad hoc networks,2015,Português,Computer Communications,SEM_DADOS,SEM_DADOS,"['LIPA, NADINE and', 'MANNES, ELISA and', 'SANTOS, ALDRI and', 'NOGUEIRA, Michele and']"
 LATTES,PERIODICO,0513694670507977,Elisa Mannes,10.1145/3311888,Naming Content on the Network Layer,2019,Inglês,ACM COMPUTING SURVEYS,SEM_DADOS,SEM_DADOS,"['MANNES, ELISA and', 'MAZIERO, CARLOS and']"
 LATTES,PERIODICO,0513694670507977,Elisa Mannes,,Desenvolvimento prático de uma aplicação cliente/servidor para o ensino de protocolos de comunicação,2008,Português,Revista do IST,SEM_DADOS,SEM_DADOS,"['MANNES, Elisa.;MANNES, ELISA and', 'SILVA, Eduardo da. and']"

@@ -20,7 +20,7 @@ import glob
 FILE_DIR = Path(__file__).parent
 
 caminho1 = (FILE_DIR/"../scraperXMLtoCSV/data/publicacoes_tudo/tudo_all.csv").resolve()
-caminho4 = (FILE_DIR/"../scraperXMLtoCSV/Banco PostgreSQL/autores.csv").resolve()
+caminho4 = (FILE_DIR/"../scraperXMLtoCSV/Banco PostgreSQL/artigos.csv").resolve()
 caminho2 = (FILE_DIR/"../scraperXMLtoCSV/csv_producao/formacao_all.csv").resolve()
 caminho3 = (FILE_DIR/"../scraperXMLtoCSV/csv_producao/teste.xlsx").resolve()
 pathfilename2 = (FILE_DIR/"../scraperXMLtoCSV/Banco PostgreSQL/autoresartigo.csv").resolve()
@@ -125,11 +125,7 @@ def getJuncao():
     dffinal = pd.concat (frames)
     dffinal.to_csv(pathfilename, index=False)
 
-    # Juntar pro bd
-    df_tudo =  pd.read_csv(caminho1)
-    df_nome =  pd.read_csv(caminho4)
-    dftrabevento = pd.merge(df_tudo, df_nome, on='ID_LATTES')
-    dftrabevento.to_csv(pathfilename2, index=False)
+
 
     # Planilha linha do tempo (titulação)
     # ------------------------------------------------------------

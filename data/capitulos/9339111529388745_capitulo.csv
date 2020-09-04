@@ -1,2 +1,2 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,9339111529388745,Jorge Gustavo Sandoval Simão,Sistema para Mineração de Dados de Biometria de Voz na Segurança Pública utilizando Aprendizado de Máquina,2019,Português,FUCAP,"['SIMÃO, J. G. S.', 'KALE, A.A.', 'HEERDT, S. C. S.']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,9339111529388745,Jorge Gustavo Sandoval Simão,Sistema para Mineração de Dados de Biometria de Voz na Segurança Pública utilizando Aprendizado de Máquina,Inovação em Segurança Pública,2019,Português,FUCAP,"['SIMÃO, J. G. S.', 'KALE, A.A.', 'HEERDT, S. C. S.']"

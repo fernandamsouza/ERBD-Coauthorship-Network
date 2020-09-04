@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,DOI,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,PERIODICO,4940517936484660,André Magno Costa de Araujo,10.1109/MS.2018.110162508,A Tool for Generating Health Applications Using Archetypes,2020,Português,IEEE SOFTWARE,SEM_DADOS,SEM_DADOS,"['ARAUJO, ANDRE and', 'TIMES, VALERIA and', 'SILVA, MARCUS and']"
 LATTES,PERIODICO,4940517936484660,André Magno Costa de Araujo,,Uso da Persistência Poliglota e de Arquétipos no Armazenamento do Registro Eletrônico de Saúde,2020,Português,JNT - Facit Business and Technology Journal,SEM_DADOS,SEM_DADOS,"['André Magno Costa de Araújo and', 'TIMES, V. C. and']"
 LATTES,PERIODICO,4940517936484660,André Magno Costa de Araujo,,A Visual Modelling Language to Build Healtcare Applications Based on a Reusable Software Architecture,2020,Português,JNT - Facit Business and Technology Journal,SEM_DADOS,SEM_DADOS,"['SILVA, M. A. P. and', 'TIMES, V. C. and', 'André Magno Costa de Araújo and', 'SILVA, P. C. and']"

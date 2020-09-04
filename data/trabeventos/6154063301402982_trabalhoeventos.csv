@@ -1,4 +1,4 @@
-FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL,CIDADE_EVENTO,ANO_EVENTO,AUTORES
+FONTE,TIPO,ID_LATTES,NOME,NATUREZA,TITULO,ANO,LANG,EVENTO/JOURNAL/LIVRO,CIDADE_EVENTO,ANO_EVENTO,AUTORES
 LATTES,TRAB.EVENTO,6154063301402982,Alexander Richard Vinson,RESUMO,Similaridade de Elementos XML baseada em Caminhos,2006,Português,V Workshop de Dissertações em Banco de Dados,Florianópolis,2006,"['VINSON, A. R. and', 'HEUSER, C. A. and']"
 LATTES,TRAB.EVENTO,6154063301402982,Alexander Richard Vinson,COMPLETO,An Approach to XML Path Matching,2007,Inglês,Anais do WIDM,"Lisboa, Portugal",2007,"['VINSON, A. R. and', 'HEUSER, C. A. and', 'Altigran S. da Silva and', 'Edleno S. de Moura and']"
 LATTES,TRAB.EVENTO,6154063301402982,Alexander Richard Vinson,COMPLETO,Técnica para Analisar a Evolução do Perfil do Usuário com Base nas Suas Publicações,2007,Português,Anais da II Escola Regional de Banco de Dados,Caxias,2007,"['NUNES, M. F. and', 'VINSON, A. R. and', 'LOH, S. and']"

@@ -1,5 +1,5 @@
-FONTE,TIPO,ID,NOME,TITULO,ANO,LANG,EDITORA,AUTORES
-LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,NoSQL Geographic Databases: An Overview,2014,Português,CRC Press,"['BAPTISTA, C. S.', 'PIRES, C. E. S.', 'LEITE, D. F. B.', 'OLIVEIRA, M. G.', 'LIMA JUNIOR, O. F.']"
-LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,Deduplicação de Entidades em Larga Escala em Paralelo no Domínio de Saúde,2015,Português,,"['PIRES, C. E. S.', 'NASCIMENTO, DIMAS C.', 'MESTRE, D. G.']"
-LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,Sports Analytics: Mudando o Jogo,2017,Português,Sociedade Brasileira de Computação ? SBC,"['COSTA, I. B.', 'PIRES, C. E. S.', 'MARINHO, L. B.']"
-LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,Data Quality Monitoring of Cloud Databases Based on Data Quality SLAs,2015,Inglês,Springer International Publishing,"['NASCIMENTO, DIMAS C.', 'PIRES, CARLOS EDUARDO', 'Mestre, Demetrio']"
+FONTE,TIPO,ID_LATTES,NOME,TITULO,EVENTO/JOURNAL/LIVRO,ANO,LANG,EDITORA,AUTORES
+LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,NoSQL Geographic Databases: An Overview,Geographical Information Systems: Trends and Technologies,2014,Português,CRC Press,"['BAPTISTA, C. S.', 'PIRES, C. E. S.', 'LEITE, D. F. B.', 'OLIVEIRA, M. G.', 'LIMA JUNIOR, O. F.']"
+LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,Deduplicação de Entidades em Larga Escala em Paralelo no Domínio de Saúde,Grandes Desafios da Computação no Brasil - Relatos do 3o Seminário,2015,Português,,"['PIRES, C. E. S.', 'NASCIMENTO, DIMAS C.', 'MESTRE, D. G.']"
+LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,Sports Analytics: Mudando o Jogo,Sports Analytics: Mudando o Jogo,2017,Português,Sociedade Brasileira de Computação ? SBC,"['COSTA, I. B.', 'PIRES, C. E. S.', 'MARINHO, L. B.']"
+LATTES,CAP.LIVRO,4986021622366786,Carlos Eduardo Santos Pires,Data Quality Monitoring of Cloud Databases Based on Data Quality SLAs,Big-Data Analytics and Cloud Computing,2015,Inglês,Springer International Publishing,"['NASCIMENTO, DIMAS C.', 'PIRES, CARLOS EDUARDO', 'Mestre, Demetrio']"
