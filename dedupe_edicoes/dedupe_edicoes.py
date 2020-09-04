@@ -18,7 +18,7 @@ pathfilename = (FILE_DIR/"../dedupe_edicoes/edicoes_parsed.csv").resolve()
 
 
 df = pd.read_csv(edicoes)
-data2 = pandas_dedupe.dedupe_dataframe(df,['evento_journal'], update_model= False)
+data2 = pandas_dedupe.dedupe_dataframe(df,['evento journal'], update_model= False)
 data2.to_csv(pathfilename, index = False)
 print("Dados deduplicados com sucesso")
 print("------------------")
