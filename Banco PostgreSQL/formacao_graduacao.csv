@@ -1,0 +1,168 @@
+id_titulacao,id_autor,INICIO_GRADUACAO,TERMINO_GRADUACAO,id_instituicao,CURSO GRADUAÇÃO
+1,119,1993,1995,2,Tecnologia Em Processamento de Dados
+1,292,1995,1999,3,Processamento de Dados
+1,252,2015,2018,4,Sistemas de Informação
+1,206,2009,2013,5,Ciência da Computação
+1,417,2004,2008,6,Bacharelado em Ciência da Computação
+1,253,2018,,7,Ciências Contábeis
+1,68,1998,2003,8,Sistemas de Informação
+1,274,2011,2015,9,Sistemas de Informação
+1,107,1998,2002,10,Tecnologia em Processamento de Dados
+1,329,1998,2000,11,Processamento de Dados
+1,232,2005,2009,12,Sistemas de Informação
+1,309,2012,2014,13,Sistemas de Informação
+1,428,1991,1993,14,Tecnologia em Processamento de Dados
+1,54,1990,1994,15,Ciências da Computação
+1,306,2011,2013,15,Sistemas de Informação
+1,243,2010,2014,19,Sistemas de Informação
+1,239,2010,2013,19,Bacharelado em Sistemas de Informação
+1,282,2014,2016,19,Sistema de Informação
+1,394,2014,2018,19,Sistemas de Informação
+1,220,2010,2016,18,Bacharelado em Sistema de Informação
+1,189,2007,2010,19,Mecatrônica Industrial
+1,348,2016,,20,Análise e Desenvolvimento de Sistemas
+1,319,2014,,20,Análise e Desenvolvimento de sistemas
+1,296,1998,2003,21,Engenharia Elétrica
+1,158,1990,1992,22,TECNOLOGIA EM PROCESSAMENTO DE DADOS
+1,257,2014,2015,23,Business Information Systems
+1,211,1999,2002,24,Bacharelado em Análise de Sistemas
+1,139,1970,1973,26,Comunicação Social
+1,89,1987,1990,26,Informática Software Básico
+1,225,2006,2009,26,Sistemas de Informação
+1,439,2003,2007,27,Bacharelado em Ciências da Computação
+1,5,1991,1998,27,Bacharel em Informática
+1,85,2001,2005,27,Ciência da Computação
+1,1,1998,2002,27,SEM_DADOS
+1,53,2000,2004,27,Bacharelado Em Ciência da Computação
+1,187,2007,,27,Ciência da Computação
+1,165,1998,2002,27,Engenharia de Computação
+1,140,2005,2009,27,Ciência da Computação
+1,27,1996,2001,27,SEM_DADOS
+1,420,2007,,27,Ciência da Computação
+1,48,2003,2006,27,Ciência da Computação
+1,435,2002,2006,27,Sistemas de Informação
+1,3,2000,2005,27,Ciência da Computação
+1,92,1998,2003,27,SEM_DADOS
+1,434,2006,,27,SEM_DADOS
+1,58,1999,2003,27,Engenharia de Computação
+1,21,2001,2005,27,Ciencia da Computacao
+1,11,2000,,27,SEM_DADOS
+1,121,1999,,27,SEM_DADOS
+1,78,2002,2007,27,SEM_DADOS
+1,367,2010,,27,Engenharia de Computação
+1,216,2005,,27,SEM_DADOS
+1,81,2001,2005,27,SEM_DADOS
+1,168,2007,2011,27,Sistemas de Informação
+1,104,2003,2007,27,Ciências da Computação
+1,63,1999,,27,SEM_DADOS
+1,205,2008,,27,Ciência da Computação
+1,56,1989,1993,27,Informatica
+1,65,2002,,27,Ciência da Computação
+1,279,2008,,27,Ciência da Computação
+1,219,2005,2011,27,Bacharelado em Ciência da Computação
+1,215,2008,,27,Ciência da Computação
+1,190,2005,2009,28,Bacharelado em Sistemas de Informação
+1,315,2013,2017,29,Sistemas de Informação
+1,28,1992,1995,32,Análise de Sistemas
+1,207,2000,2004,32,Análise de Sistemas
+1,369,2007,2011,33,Sistemas de Informação
+1,175,2002,2009,35,Ciência da Computação
+1,321,1985,1989,35,Bacharelado Em Biologia
+1,307,2005,2013,36,Ciência da Computação
+1,130,1994,2000,36,Ciência da Computação
+1,55,1999,2000,36,Ciência da Computação
+1,129,1991,1995,37,Ciência da Computação
+1,188,2013,2018,37,Ciência da Computação
+1,118,2005,2008,37,Ciência da Computação
+1,345,2013,,37,Ciência da Computação
+1,169,2007,2011,38,Sistemas de Informação
+1,19,1997,2002,39,Ciências da Computação
+1,82,2011,2012,42,Ciências Econômicas
+1,269,2013,2018,42,Ciência da Computação
+1,64,2000,2004,42,Bacharelado em Ciências da Computação
+1,202,2005,2011,42,Ciência da Computação
+1,186,2000,2005,43,Engenharia de Computação
+1,126,2001,2005,43,Cienca da Computação
+1,373,2009,2014,43,Ciência da Computação
+1,36,2002,2009,44,Ciência da Computação
+1,301,2011,2016,46,Ciência da Computação
+1,314,2013,2017,46,Ciência da Computação
+1,400,2011,2015,48,Ciência da Computação
+1,391,2008,2012,49,Ciência da Computação
+1,236,2009,2012,49,Ciência da Computação
+1,424,2005,2008,50,Ciência da Computação
+1,155,2005,2010,51,Ciência da Computação
+1,244,2010,2014,52,Ciência da Computação
+1,268,2010,2015,52,Ciência da Computação
+1,290,2010,2015,52,Ciência da Computação
+1,43,1993,1997,53,Ciência da Computação
+1,33,1999,2002,55,Bacharelado em Ciência da Computação
+1,91,2001,2005,55,Bacharelado em Ciência da Computação
+1,338,2019,,57,Informática
+1,213,2007,2015,58,Sistemas de Informação
+1,115,2003,2008,58,Bacharelado Ciências da Computação
+1,237,2010,,58,Sistema de Informação
+1,422,1997,2001,58,Ciências da Computação
+1,242,2009,2013,58,Ciência da Computação
+1,112,2007,2012,58,Sistemas de Informação
+1,114,2001,2007,58,Sistema de Informação
+1,84,2002,,58,Ciências da Computação
+1,203,2008,2012,58,Sistema de Informação
+1,150,1984,1988,58,Ciencias da Computação
+1,49,2001,2004,58,Ciências da Computação
+1,365,2017,,59,Ciência da Computação
+1,123,1995,1999,59,Informática Bacharelado
+1,363,2013,,59,Sistema de Informação
+1,291,2015,2017,59,Programa Especial de Graduação de Formação de Professores Para A Educação P
+1,61,1990,1993,59,Curso de Informática Bacharelado
+1,266,2012,2016,59,Sistemas Para Internet
+1,312,2014,2018,59,Sistemas Para Internet
+1,326,2012,2016,59,Sistema de Informação
+1,171,2007,2010,59,Ciência da Computação
+1,197,2007,2012,59,Ciência da Computação
+1,181,2008,2011,59,Ciência da Computação
+1,135,1994,2000,59,Engenharia Elétrica
+1,278,2004,2007,59,Ciência da Computação
+1,380,2015,2018,59,Sistemas Para Internet
+1,281,2013,2016,59,Ciência da Computação
+1,212,2017,2019,59,Programa Especial de Graduação de Formação de Professores Para A Educação P
+1,83,1988,1992,61,Bacharelado em Ciência da Computação
+1,259,2011,2014,62,Sistemas de Informacao
+1,304,1998,2003,63,Ciência da Computação
+1,271,2010,,64,Engenharia da Computação
+1,209,2010,2015,64,Ciência da Computação
+1,222,2009,2013,64,Ciência da Computação
+1,231,2010,2013,64,Engenharia de Software
+1,66,2000,2004,65,Bacharelado em Ciencia da Computacao
+1,408,2011,2016,66,Estatística
+1,145,2003,2007,66,Bacharelado em Ciência da Computação
+1,364,2013,2017,66,Ciência da Computação
+1,258,1996,2001,66,Ciência da Computação
+1,376,2000,2004,67,Ciência da Computação
+1,228,2009,2012,78,Sistemas de Informação
+1,229,2009,2013,78,Sistemas de Informação
+1,198,2008,2012,78,Engenharia de Computação
+1,200,2008,2009,78,Tecnólogo em análise e desenvolvimento de sistemas
+1,256,2013,2018,68,Ciência da Computação
+1,29,2002,2006,68,Ciência da Computação
+1,41,2000,2005,68,
+1,72,2005,2010,68,Ciência da Computação
+1,9,2012,2016,68,Ciência da Computação
+1,59,1999,2002,68,Ciência da Computação
+1,50,1986,1990,68,Bacharelado Em Ciências de Computação
+1,163,1995,1999,69,Ciência da Computação
+1,240,2010,2014,71,Ciência da Computação
+1,419,1990,1995,71,Informática Com Ênfase Em Análise de Sistemas
+1,20,1992,1995,71,Informática com Ênfase em Análise de Sistemas
+1,300,2004,2009,72,Ciência da Computação
+1,355,2013,2018,72,Ciência da Computação
+1,7,1997,2001,72,Informática
+1,384,1998,2001,73,Análise de Sistemas
+1,40,1997,2000,74,Ciência da Computação
+1,386,2016,,75,Ciência da Computação
+1,76,1994,1995,75,Lic Plena Professor Esp Curso 2º Grau-Esquema I
+1,341,2012,2018,75,Engenharia de Computação
+1,93,2010,2013,75,Sistemas para Internet
+1,377,2015,,75,Sistemas de Informação
+1,413,2013,,75,Sistemas de Informação
+1,446,2015,,75,Sistemas de Informação
