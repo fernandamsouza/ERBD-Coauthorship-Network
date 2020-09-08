@@ -1,0 +1,484 @@
+id_instituicao,id_autor,INÍCIO,FIM,FUNCAO
+3,292,2010,2012,Professor Assistente
+3,292,2013,,Professor Associado
+3,292,2018,,Coordenador de curso
+4,376,2011,2013,Professor Temporário
+4,252,2014,2018,Técnico de Tecnologia da Informação
+5,206,2012,2012,Monitoria em Redes de Computadores I e II
+5,206,2012,2012,Monitoria em Banco de Dados I e II
+6,66,2011,,Professor Horista
+8,28,2003,2006,Professor
+8,28,2010,2011,Professor Adjunto
+8,48,2003,2005,Monitoria e Tutoria
+9,274,2012,2015,Presidente do C.A. de Sstemas de Informação
+10,107,1999,1999,Administrador de Redes Junior
+14,428,1991,2001,Professor
+15,306,2006,2011,Auxiliar em assuntos de informatica
+18,220,2016,,Pesquisador
+19,239,2010,2011,Desenvolvedor
+19,239,2014,2017,BOLSISTA DE PESQUISA
+19,239,2017,,Professor de Ensino Básico
+19,243,2011,2012,
+19,211,2012,2014,"Professor do Ensino Básico, Téc. e Tecnológic"
+19,211,2014,,Professor de Ensino Básico Téc. e Tecnológico
+19,211,2016,2017,Coordenador de Curso Técnico
+19,54,2010,,Professor EBTT
+19,239,2013,,Técnico em Tecnologia da Informação
+19,107,2015,2015,Professor
+19,190,2015,2015,Professor substituto
+19,243,2013,2014,Técnico em análise de T.I
+20,181,2014,,ANALISTA DE TECNOLOGIA DA INFORMAÇÃO
+20,181,2016,2016,PROFESSOR DE CURSO TÉCNICO - PRONATEC
+20,291,2016,2017,Docente Substituto
+20,225,2017,2017,Professor substituto
+20,231,2015,,"Professor Ens. Básico, Técnico e Tecnológico"
+20,266,2010,2010,Aluno
+20,300,2015,,Técnico Adminstrativo em Edutação
+20,319,2015,2016,Estágiario
+20,319,2016,,Estágiario
+22,158,2010,2018,Coordenador de Curso
+22,158,1996,,Professor de Ensino Superior
+22,158,2004,2009,Coordenador Centro Pesquisas em Informática
+22,158,2018,,Vice-Diretor Acadêmico
+24,211,2000,2001,
+24,211,2004,2006,Bolsista
+26,91,2006,2008,Bolsista
+26,28,1999,2001,Professor Auxiliar
+26,53,2001,2004,Estágio
+26,53,2005,2006,Pesquisa e Desenvolvimento
+26,225,2010,2012,Pesquisador
+26,225,2012,2014,Desenvolvedor de Sistemas
+26,139,1974,,
+26,139,2000,,
+26,232,2019,,Professor
+26,81,2006,,Bolsista
+26,123,2008,2008,Professor horista
+26,225,2006,2007,Estagiário
+28,190,2008,2008,Temporário
+29,28,2004,2004,
+29,315,2014,2015,Professor de PHP
+29,315,2017,,Estudante/Pesquisador
+30,107,2010,2011,Part-time Visiting Graduate Student
+30,169,2016,2016,Teaching Assistant
+31,229,2015,2018,Bolsista de doutorado - CNPq
+32,28,1993,1995,Monitor
+32,28,1995,1995,Bolsista de Iniciação Científica
+32,76,1998,2004,Auxiliar de Ensino
+32,76,2006,2007,Bolsista CNPq
+32,21,2000,2002,Estagiário
+32,21,2002,2003,Voluntário
+32,21,2004,2005,Iniciação Científica
+33,28,1997,1999,Professor Horista
+33,28,2001,2006,Assistente
+33,369,2010,2011,Desenvolvedor de Software
+33,369,2016,2017,Desenvolvedor de Software Sênior
+33,369,2016,2017,Professor do Ensino Superior
+34,91,2019,,Analista de TI
+35,119,2001,2004,
+35,119,1997,2001,Professor horista
+35,419,2000,2001,PROFESSORA CONVIDADA
+35,123,2005,2005,Professor horista
+35,321,1990,2013,Professor Adjunto
+35,321,1977,1978,Auxiliar de Escritório II- Padrão 4
+35,321,1991,1992,Técnico de Laboratório
+35,321,2010,,Diretora do Instituto de Saneamento Ambiental
+35,321,2013,2016,Doutor Titular I
+35,321,1986,1986,Membro do Conselho Universitário
+35,321,2010,2018,RT Programa de gerenciamento Ambiental UCS
+35,321,2010,2018,RT Gerenciamento de Resíduos Sólidos UCS
+35,321,1998,2018,RT Gerenciamento de Resíduos Sólidos HG
+35,321,2016,2017,RT Estudos hidrológicos - Seara
+35,321,2016,2018,RT PGRS - Carvi
+35,321,2016,2018,RT Plano Gerenc. Resíduos Sólidos / UCS
+35,321,2016,2018,RT Licenciamento Ambiental UCS
+35,321,2015,2018,RT PGRSS UCS
+35,321,2015,2018,RT Licenciamento Camva
+35,321,2016,2018,RT Licenciamento Carvi
+35,321,2016,2017,RT Estudos resíduos Antônio Prado
+35,321,2016,2018,RT Licenciamento HG
+35,321,2015,2018,RT PGRSS HG
+35,321,2016,2018,Responsável Técnico-Qualidade Rio São Marcos
+35,321,2016,,Doutor Titular II
+35,321,2011,2015,Núcleo Docente Estruturante-Engenharia Ambien
+35,321,2000,2002,Membro do Colegiado-Curso Biologia - CARVI
+35,321,2011,2012,Núcleo Docente Estruturante-Ciências/Biologia
+35,321,2012,2016,Núcleo Docente Estruturante-Biológia Licenc.
+35,321,2013,2016,Núcleo Docente Estruturante-Biologia Bacharel
+35,321,2017,2018,Responsável Técnico - Plano de Bacia/Vacaria
+35,321,2017,2018,Responsável Técnico-Poços São Marcos
+35,321,2017,2018,Responsável Técnico - Laudos Juventude
+35,321,2017,2018,Responsável Técnico - CR Reversos/Farroupilha
+35,321,2017,2018,Responsável Técnico-PS Antônio Prado
+35,321,2020,,Membro do Conselho Editorial da EDUCS
+36,130,2008,2008,Professor do Curso de Ciência da Computação
+36,307,2015,2015,
+37,118,2005,2008,Pesquisador
+37,300,2016,2017,Aluno
+39,19,2005,2009,Professor
+39,19,1999,1999,Bolsista IC
+39,85,2007,2007,Estagiário
+40,40,2007,2007,Voluntário
+40,40,2008,2008,Bolsista
+40,40,2009,2009,Pesquisador
+40,428,2006,2010,Pesquisador do PCS/LAA
+42,190,2017,,Analista de suporte
+42,190,2018,2018,Tutor a distância
+42,190,2019,2019,Tutor a distância
+42,190,2019,,Coordenadora de Informática
+42,28,2008,2010,Professor Adjunto
+42,64,2007,2010,Professor Colaborador
+42,64,2014,2014,Professor Colaborador
+42,64,2014,,Professor Adjunto
+42,54,2009,2010,Professor substituto
+42,202,2005,2011,Acadêmico
+42,202,2008,2009,Webmaster
+42,428,2008,2010,Professor Adjunto I
+42,422,2004,,
+43,63,2000,,Bolsista
+43,126,2002,2003,Voluntário
+43,126,2006,2007,Administrador de Banco de Dados
+43,186,2001,2005,Analista de Suporte
+43,373,2015,2017,Estudante de Pós-Graduação
+43,373,2017,2017,Professor Colaborador
+43,373,2017,2018,
+44,36,2003,2006,Outro (Bolsista de Iniciação Científica)
+44,36,2006,2007,Bolsista de Iniciação Científica
+44,89,1995,,Professor Adjunto
+44,21,2006,2008,Mestrando
+44,232,2015,2018,Professor Auxiliar
+45,377,2007,2007,Pesquisador/Desenvolvedor Web
+45,58,2000,2000,Iniciação Científica
+45,83,2001,2001,Instrutor no Plano de Estágio Docente (PED)
+45,83,2004,2005,Consultor de nível superior
+45,258,2011,2011,Docente
+46,301,2014,2015,Inciação Científica
+47,163,2004,2006,professor colaborador
+47,163,2006,,Professor não-titular
+48,400,2012,2014,Estagiário
+48,400,2014,2015,Aluno
+49,163,2010,2012,Estagiário de Iniciação Científica
+51,155,2009,2010,Iniciação Científica
+51,40,2010,,Associado I
+52,244,2010,2011,Bolsista
+52,244,2011,2012,Estagiário
+52,244,2013,2013,Monitor
+52,309,2015,,
+52,268,2015,2017,Professor Substituto
+52,118,2019,,
+53,43,1997,1998,Bolsista de IC
+53,43,1997,1997,Estagiário
+53,43,2009,2011,Professor Adjunto I
+53,43,2011,2013,Professor Adjunto II
+53,43,2013,2015,Professor Adjunto III
+53,43,2015,2017,Professor Adjunto IV
+53,43,2017,,Professor Associado I
+55,91,2002,2005,Estagiária
+55,91,2005,2005,
+55,91,2005,2006,Corpo Tecnico
+55,33,2001,2001,Bolsista de Apoio Institucional
+56,384,2014,2018,Estudante de Doutorado
+56,43,2008,2009,Bolsista (FACEPE)
+58,107,2003,2015,Pesquisador
+58,107,2015,,Professor Adjunto
+58,244,2014,2016,Bolsita de Mestrado
+58,244,2016,2018,Bolsista Projeto Bridge
+58,244,2017,2020,Bolsista Doutorado
+58,49,2011,,Analista de TI
+58,213,2005,2007,Estagiário
+58,213,2007,2008,Estagiário
+58,168,2008,2008,Bolsista
+58,115,2015,,Analista de Tecnologia da Informação
+58,50,2019,,
+58,50,2010,2019,Professor Associado
+58,50,2002,2010,Professor Adjunto
+58,50,1995,2002,Professor Assistente
+58,104,2004,2004,Monitor
+58,104,2005,2006,Bolsista de desenvolvimento
+58,186,2011,2011,Estágio de Docência
+58,92,1998,1999,Administrador de Banco de Dados
+58,83,2006,,Professor adjunto
+58,163,2013,,Bolsista de Mestrado
+58,112,2008,2012,Bolsista em nível de Graduação
+58,112,2013,,Pesquisador em nível de Mestrado
+58,242,2012,2013,Estagiário de Iniciação Científica
+58,242,2014,2016,Bolsista de pós-graduação (CAPES)
+58,242,2016,2016,Pesquisador (CNPq)
+58,242,2016,,Bolsista de pós-graduação (CAPES)
+59,380,2016,2017,Bolsista de Iniciação Científica
+59,19,2014,,Professor Adjunto
+59,61,1995,,Analista de TI
+59,365,2017,,Aluno
+59,363,2014,,Bolsista do Programa de Educação Tutorial
+59,181,2008,2011,Aluno de Graduação
+59,181,2011,2011,Monitor
+59,291,2015,2017,Bolsista
+59,28,2011,,Professor Associado
+59,278,2004,2008,Bolsista PET - Ciência da Computação
+59,278,2006,2008,Colaborador do grupo GMob
+59,278,2008,2009,Colaborador do Grupo LSC
+59,278,2008,2008,Bolsista CPD - UFSM
+59,278,2008,2009,Bolsista de Iniciação Ciêntifica - CAPES
+59,225,2018,,Professor Adjunto
+59,231,2014,2015,Bolsista
+59,231,2014,2015,Professor Substituto
+59,326,2014,2014,Monitoria da Disciplina de Lógica e Algoritmo
+59,326,2015,2017,Bolsista PET - Sistemas de Informação
+59,326,2017,2018,Suporte ao Moodle UAB
+59,266,2014,2015,
+59,171,2007,2009,Bolsista do Programa de Educação Tutorial
+59,171,2009,2011,Bolsista BIT
+59,312,2015,,Iniciação Científica
+59,187,2009,2009,Bolsista
+59,187,2011,,Monitor
+59,123,2009,2011,Adjunto I
+59,123,2011,2013,Adjunto II
+59,123,2013,2015,Adjunto III
+59,123,2015,2017,Adjunto IV
+59,123,2017,2019,Professor Associado I
+59,123,2019,,Professor Associado II
+59,240,2015,,Pesquisador
+59,135,2014,2017,Bolsista
+59,300,2012,2014,Analista de Tecnologia da Informação
+60,40,2004,2006,Pesquisador
+61,259,2015,,Pesquisador
+62,259,2013,2014,Monitor de Álgebra Linear
+62,259,2013,2014,Tutor de Geometria Analítica e Álgebra Linear
+62,259,2013,2014,Monitor de Geometria Analítica e Álgebra
+62,259,2020,,Professor do Magistério Superior
+64,59,2012,2012,Professor
+64,19,2011,2013,Professor Adjunto
+64,91,2011,2012,Analista de TI
+64,56,2010,,"Professor Assistente, Nível 01"
+64,209,2012,2013,Bolsista PIBIC Fapergs
+64,278,2013,,Analista de Tecnologia da Informação
+64,231,2010,2010,Colaborador
+64,231,2011,2011,Colaborador
+64,231,2012,2012,Colaborador
+64,231,2013,2013,Colaborador
+64,222,2012,2013,
+64,271,2014,,
+64,123,2008,2008,Assistente
+64,123,2009,2009,Adjunto I
+66,190,2009,2011,Pesquisadora
+66,190,2011,2013,Analista de Sistemas
+66,190,2013,2016,Pesquisadora
+66,408,2006,,
+66,145,2008,2010,Aluno
+66,64,2010,2014,aluno de doutorado
+66,135,2019,,Pesquisador
+66,258,1998,1998,Monitor
+67,376,2012,,Colaborador
+67,376,2005,2008,Aluno de Mestrado
+67,376,2008,2012,Aluno de Doutorado
+67,376,2000,2004,Aluno de Graduação
+68,20,2005,2006,Bolsista DTI - Projeto Digitex
+68,20,2003,2005,Mestranda
+68,20,2002,2002,Bolsista DTI - Projeto AdaptWeb
+68,20,2000,2001,Bolsista DTI - Projeto Tapejara
+68,20,2005,2005,Bolsista DTI - Projeto AdaptWeb
+68,59,2008,2009,Professor Substituto
+68,59,2011,2011,Professor Substituto
+68,59,2012,,Professor Adjunto
+68,19,2002,2003,Desenvolvedor
+68,19,2005,2005,Pesquisador
+68,19,2003,2005,Pesquisador
+68,19,2005,2007,Pesquisador
+68,256,2014,2018,Iniciação Científica
+68,256,2013,2014,Iniciação Científica
+68,91,2012,2016,Analista de TI
+68,181,2012,2014,Bolsista de Mestrado
+68,239,2010,2011,BOLSISTA DE DESENVOLVIMENTO WEB
+68,239,2011,2012,BOLSISTA DE DESENVOLVIMENTO WEB
+68,9,2013,2014,Bolsista de Iniciação Científica
+68,9,2015,2015,Bolsista de Iniciação Científica
+68,119,2004,2005,Colaborador Convidado
+68,119,1996,1998,aluno de doutorado
+68,119,1999,2003,aluno de doutorado
+68,119,2005,,Associado
+68,119,2017,,Chefe de Departamento
+68,119,2015,2016,Chefe de Departamento
+68,119,2011,2012,Vice Chefe de Departamento
+68,119,2013,2014,Vice Chefe de Departamento
+68,27,2002,2003,Bolsista DTI
+68,78,2003,2005,Pesquisador
+68,29,2002,2005,Bolsista
+68,50,1994,1995,Pesquisador Associado
+68,419,1996,1999,Bolsista
+68,11,2001,,bolsista CNPq
+68,118,2009,2010,Bolsista
+68,118,2010,2010,Não-bolsista
+68,123,2004,2008,Aluna de Doutorado
+68,123,2007,2008,Professor substituto
+68,33,2003,2004,Bolsista DTI
+68,7,2001,2003,DTI-H
+68,3,2001,2003,Bolsista
+68,165,2007,2008,Pesquisador
+68,165,2008,2009,Pesquisador
+70,296,2017,2017,Professor Pós Graduação
+70,417,2010,,Pesquisador
+71,365,2015,2016,Bolsista
+71,365,2015,2015,Voluntário
+71,365,2016,2016,Estagiário
+71,365,2017,2017,Bolsista
+71,56,2002,2004,Professor Hora/Aula 12 Horas
+71,56,1990,1992,Técnico Médio N1
+71,56,2004,2008,Professor Assistente N1- 30 horas
+71,56,1992,1992,Analista de Suporte Junior
+71,56,1992,1995,Técnico Médio N2
+71,56,1995,1998,Técnico Superior II
+71,56,1999,2004,Técnico Superior III
+71,56,2004,2008,Técnico Superior III
+71,56,2009,2009,Professor Assistente 36 Horas
+71,56,2009,2010,Professor Assistente 40 Horas
+71,240,2013,2014,Pesquisador
+71,135,2006,2007,Professor Horista
+71,135,2007,2009,Professor Associado
+72,291,2011,2012,Bolsista
+72,419,2000,,PROFESSORA TEMPO INTEGRAL
+72,355,2014,2014,Bolsista
+72,355,2015,,Bolsista
+72,7,2000,2000,PII - URI
+72,7,1999,2000,PII - URI
+74,40,2001,2004,Pesquisador/Professor Horista
+74,40,2009,2010,
+75,377,2015,,Professor Universitário
+75,257,2013,2014,Estudante de Iniciação Científica
+75,341,2016,2017,Iniciação Científica
+75,341,2018,2018,Iniciação Científica
+75,367,2011,2011,Bolsista PIBIC-CNPq
+75,446,2017,,Iniciação Científica
+75,258,2012,2012,Professor Adjunto
+75,258,2012,,Professor Adjunto II
+77,256,2018,,Assistente de Pesquisa
+78,228,2009,2010,Bolsista
+78,228,2010,2012,Estagiária
+78,228,2012,2012,Estagiária
+78,228,2009,2010,Bolsista
+78,228,2014,,Analista de Tecnologia da Informação
+78,207,2010,,Analista de TI
+78,200,2010,2010,Diagramador
+78,200,2010,2011,Desenvolvedor
+78,369,2014,2014,Estagiário de Docência
+78,198,2011,2011,Bolsista de Iniciação Científica
+78,229,2010,2010,Núcleo de Video Web Conferência
+78,229,2009,2009,Manutenção do Laboratório.
+78,229,2011,2011,Desenvolvimento framework.
+78,229,2011,2012,Projeto de Inclusão Digital em Rio Grande
+78,229,2018,2018,Trabalho voluntário - Professor
+78,229,2019,2019,Professor Substituto
+78,229,2019,,Pos-doutorado
+79,309,2018,,
+79,169,2013,2015,Engenheiro de Testes
+80,82,2002,2003,Analista de Informática
+80,189,2018,,Analista de Sistemas
+80,242,2013,2014,Pesquisador e Desenvolvedor
+81,417,2006,2008,Estagiário de Desenvolvimento de Softwares
+82,219,2003,2003,Estagiário de Nível Médio
+82,219,2004,2010,Técnico Programador
+82,219,2010,,Analista de Sistemas
+83,376,2003,2004,Bolsista de Pesquisa
+84,58,2001,2003,Bolsista de Iniciação Científica
+85,19,2001,2002,Desenvolvedor
+87,28,2006,2008,Professor de I e II Graus
+88,338,2018,2018,Estagiário de Informática
+89,129,2012,,
+90,373,2018,2018,Professor
+91,20,2017,,Coordenadora de curso de graduação
+91,20,2017,,Professor Adjunto Nível III - EAD
+91,20,2018,,Professor Adjunto Nível III
+94,424,2012,,Professor
+96,211,2009,2009,Professor Assistente
+98,123,2001,2004,
+99,43,2005,2005,Professor
+100,376,2011,2011,Professor Assistente
+101,384,2002,2016,Professor de Ensino Superior
+102,91,2016,2018,Docente de Ensino Superior
+103,435,2007,2007,Professor
+104,55,2012,,Professor
+105,130,2003,2004,Professor Curso Ténico em Informática
+106,326,2013,2014,Bolsa Monitoria
+107,211,2008,2008,Professor Assistente I
+108,428,1994,1995,Professor
+109,321,2003,2005,
+110,20,2007,2016,Professor de Ensino Superior
+110,20,2015,2016,Coordenadora de Curso de Graduação
+112,211,2008,2008,Bolsista
+113,211,2009,2009,Professor Assistente
+114,59,2011,2012,Professor Adjunto
+115,76,2005,,Professor Adjunto
+116,5,2007,2009,Professor Adjunto
+117,107,2006,2014,Professor
+118,92,2006,,Professor
+119,145,2011,2015,Professor
+120,40,2004,2004,Professor Assistente
+121,66,2011,2013,Professor Horista
+122,384,2015,2018,Professor
+123,130,2011,2011,Docencia Ensino Superior
+124,43,2001,2004,Professor Horista
+125,435,2008,2010,Colaborador
+126,83,2004,2005,Horista
+127,66,2013,,Analista de Gestão - Banco de Dados
+128,321,2011,2011,Bolsista
+129,41,2010,,Analista de Software Pleno
+130,181,2014,2014,Analista de Sistemas
+131,155,2008,2008,Estagiária
+132,118,2018,,
+133,228,2017,,Analista de TI
+133,200,2020,,Professor de informática
+133,188,2011,2012,Estagiário no Suporte (TI)
+133,118,2010,,Professor
+133,369,2017,,Docente
+133,129,2008,,"Prof. Ensino Básico, Técnico e Tecnológico"
+133,129,2009,2010,Coordenador Curso Superior de Tecnologia
+133,129,2013,2015,Coordenador do Curso TSPI
+133,369,2015,2015,Professor Substituto
+134,274,2016,,Professor de Informática
+134,274,2019,,Coordenador de Pesquisa e Inovação
+134,274,2017,2019,Coordenador de Formação Inicial e Continuada
+134,274,2018,2019,Coordenador da Rede de Incubadoras - Calama
+135,428,2010,,"Professor Ensino Básico, Tec e Tecnológico"
+136,43,2004,2006,Professor Substituto
+137,107,2011,2011,Membro de Comissão
+137,89,2014,2016,
+137,89,2016,2018,
+138,83,1997,1999,Professor convidado
+139,428,2000,2001,Professor Assistente III
+140,89,2014,2014,Pesquisador Visitante
+141,135,2014,2017,Professor
+142,292,2003,2003,Professor
+143,140,2008,2009,estagiário
+143,140,2010,2010,Programador de Sistemas II
+143,268,2019,2019,Tutoria de Cursos EAD
+144,321,2006,,Parecerista Ad hoc
+145,28,2008,2008,Professor de Pós-Graduação
+146,28,2016,,Pesquisador no Lab of Virtual Enterprises
+147,244,2019,2020,Professor
+147,244,2020,,Professor
+147,268,2017,,Professor Parcial
+147,373,2018,,Professor
+148,253,2011,2011,Projeto Inclusão Digital no Norte do Paraná
+148,253,2012,2013,Projeto Robótica Educacional
+148,253,2013,2014,Projeto AGILE ROLAP
+149,384,2018,,Professor Adjunto A
+150,165,2001,2004,Consultor
+151,119,2009,2011,Pesquisador
+152,107,2014,2015,Professor Adjunto-A
+152,107,2015,2018,Professor Visitante
+154,91,2016,2019,Analista de TI
+155,376,2013,2015,Professor Adjunto I
+155,376,2015,2017,Professor Adjunto II
+155,376,2017,2019,Professor Adjunto III
+155,376,2019,,Professor Adjunto IV
+156,212,2011,2011,Estagiário na área de Sistemas de Informação
+157,61,2005,,Professor Assistente
+157,50,1993,1995,Professor adjunto
+157,419,1999,2000,PROFESSORA HORISTA
+157,123,2004,2006,Professor Horista
+158,83,1999,1999,Professor convidado
+160,83,2017,2017,Estágio sênior financiado pela CAPES
+162,19,2000,2000,Desenvolvedor
+163,123,2006,2007,Bolsista de doutorado - estágio sanduíche
+164,309,2014,2014,Assistente de Pesquisa
+165,83,2013,2013,"Information Management Lab, Piraeus, Greece"
+166,19,2008,2008,Pesquisador
+167,377,2007,2010,Teaching Assistant

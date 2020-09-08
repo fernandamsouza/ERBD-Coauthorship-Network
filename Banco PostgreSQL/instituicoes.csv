@@ -1,78 +1,159 @@
-universidade,id
-Centro de Estudos Superiores de Londrina,2
-Centro Estadual de Educação Tecnológica Paula Souza,3
-Centro Federal de Educação Tecnológica Celso Suckow da Fonseca,4
-Centro Universitário de João Pessoa,5
-Centro Universitário do Estado do Pará,6
-Centro Universitário Estácio Ribeirão Preto,7
-Centro Universitário Franciscano,8
-Centro Universitário Luterano de Ji-Paraná,9
-Faculdade de Ciencias Administrativas e Tecnologicas - FATec,10
-Faculdade de Informática de Cuiabá,11
-Faculdade Dom Bosco de Porto Alegre,12
-Faculdade Escritor Osman da Costa Lins,13
-Fundação Paulista de Tecnologia e Educação,14
-Fundação Universidade Regional de Blumenau,15
-Institut de Mathematiques Appliquees de Grenoble (IMAG),16
-Instituto de Pesquisas Tecnológicas do Estado de São Paulo,17
-"Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",18
-Instituto Federal de Santa Catarina,19
-Instituto Federal Farroupilha,20
-Instituto Mauá de Tecnologia,21
-Instituto Municipal de Ensino Superior de Assis,22
-Middlesex University London,23
-Pontifícia Universidade Católica do Paraná,24
-Pontifícia Universidade Católica do Rio de Janeiro,25
-Pontifícia Universidade Católica do Rio Grande do Sul,26
-SEM_DADOS,27
-Sociedade Educacional de Santa Catarina,28
-Sociedade Educacional Três de Maio,29
-The University of Western Ontario,30
-Universidad Pública de Navarra,31
-Universidade Católica de Pelotas,32
-Universidade da Região da Campanha,33
-Universidade de Brasília,34
-Universidade de Caxias do Sul,35
-Universidade de Cruz Alta,36
-Universidade de Passo Fundo,37
-Universidade de Pernambuco,38
-Universidade de Santa Cruz do Sul,39
-Universidade de São Paulo,40
-Universidade do Algarve,41
-Universidade do Estado de Santa Catarina,42
-Universidade do Vale do Itajaí,43
-Universidade do Vale do Rio dos Sinos,44
-Universidade Estadual de Campinas,45
-Universidade Estadual de Londrina,46
-Universidade Estadual de Maringá,47
-Universidade Estadual de Santa Cruz,48
-Universidade Estadual do Oeste do Paraná,49
-Universidade Estadual Paulista Júlio de Mesquita Filho,50
-Universidade Federal da Bahia,51
-Universidade Federal da Fronteira Sul,52
-Universidade Federal de Campina Grande,53
-Universidade Federal de Mato Grosso,54
-Universidade Federal de Pelotas,55
-Universidade Federal de Pernambuco,56
-Universidade Federal de Rondônia,57
-Universidade Federal de Santa Catarina,58
-Universidade Federal de Santa Maria,59
-Universidade Federal de São Carlos,60
-Universidade Federal de Uberlândia,61
-Universidade Federal de Viçosa,62
-Universidade Federal do Espírito Santo,63
-Universidade Federal do Pampa,64
-Universidade Federal do Pará,65
-Universidade Federal do Paraná,66
-Universidade Federal do Rio de Janeiro,67
-Universidade Federal do Rio Grande do Sul,68
-Universidade Paranaense,69
-Universidade Presbiteriana Mackenzie,70
-Universidade Regional do Noroeste do Estado do Rio Grande do Sul,71
-Universidade Regional Integrada do Alto Uruguai e das Missões,72
-Universidade Salgado de Oliveira,73
-Universidade Salvador,74
-Universidade Tecnológica Federal do Paraná,75
-Università degli Studi di Milano/Universidade Federal do Rio Grande do Sul,76
-Universität Basel,77
-Universidade do Rio Grande,78
+id,nome,uf,cidade
+79,Centro de Estudos e Sistemas Avançados do Recife,NULL,NULL
+2,Centro de Estudos Superiores de Londrina,NULL,NULL
+80,Centro de Informática e Automação do Estado de Santa Catarina,NULL,NULL
+81,Centro de Informática e Telecomunicações da Polícia Militar do Pará,NULL,NULL
+82,Centro de Pesquisa e Desenvolvimento CPqD/Telebrás,NULL,NULL
+83,Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello,NULL,NULL
+84,Centro de Tecnologia da Informação Renato Archer,NULL,NULL
+85,Centro Educacional O Professor,NULL,NULL
+3,Centro Estadual de Educação Tecnológica Paula Souza,NULL,NULL
+4,Centro Federal de Educação Tecnológica Celso Suckow da Fonseca,NULL,NULL
+87,Centro Federal de Educação Tecnológica de São Vicente do Sul,NULL,NULL
+88,Centro Gestor e Operacional do Sistema de Proteção da Amazônia (RO),NULL,NULL
+89,Centro Nacional de Pesquisa de Trigo - CNPT,NULL,NULL
+90,Centro Universitário Barriga Verde,NULL,NULL
+91,Centro Universitário Cenecista de Osório,NULL,NULL
+5,Centro Universitário de João Pessoa,NULL,NULL
+6,Centro Universitário do Estado do Pará,NULL,NULL
+94,Centro Universitário do Norte Paulista,NULL,NULL
+7,Centro Universitário Estácio Ribeirão Preto,NULL,NULL
+8,Centro Universitário Franciscano,NULL,NULL
+96,Centro Universitário Internacional,NULL,NULL
+9,Centro Universitário Luterano de Ji-Paraná,NULL,NULL
+98,Centro Universitário Luterano de Palmas - Universidade Luterana do Brasil,NULL,NULL
+99,Centro universitário Maurício de Nassau - Recife,NULL,NULL
+100,Centro Universitário Plínio Leite,NULL,NULL
+101,Centro Universitário Tocantinense Presidente Antônio Carlos,NULL,NULL
+102,Centro Universitário Uninorte,NULL,NULL
+103,Colégio Estadual do Paraná,NULL,NULL
+104,Colégio Evangélico Panambi,NULL,NULL
+105,Colégio João Batista Rotta,NULL,NULL
+106,Colégio Politécnico da UFSM,NULL,NULL
+107,Faculdade Anchieta de Ensino Superior do Paraná,NULL,NULL
+108,"Faculdade Auxillium de Filosofia, Ciências e Letras",NULL,NULL
+109,Faculdade Cenecista de Bento Gonçalves,NULL,NULL
+110,Faculdade Cenecista de Osório,NULL,NULL
+10,Faculdade de Ciencias Administrativas e Tecnologicas - FATec,NULL,NULL
+11,Faculdade de Informática de Cuiabá,NULL,NULL
+112,Faculdade de Tecnologia de Curitiba,NULL,NULL
+113,Faculdade de Tecnologia Expert,NULL,NULL
+114,Faculdade de Tecnologia Pastor Dohms,NULL,NULL
+115,Faculdade de Tecnologia SENAC Pelotas,NULL,NULL
+116,Faculdade de Tecnologia Senac-RS,NULL,NULL
+117,Faculdade de Tecnologia SENAI,NULL,NULL
+12,Faculdade Dom Bosco de Porto Alegre,NULL,NULL
+13,Faculdade Escritor Osman da Costa Lins,NULL,NULL
+118,Faculdade Estácio de Sá de Santa Catarina,NULL,NULL
+119,Faculdade Expoente,NULL,NULL
+120,Faculdade Integrada da Bahia,NULL,NULL
+121,Faculdade Ipiranga,NULL,NULL
+122,Faculdade Maurício de Nassau de Maceió,NULL,NULL
+123,Faculdade Meridional - IMED,NULL,NULL
+124,Faculdade Salesiana do Nordeste,NULL,NULL
+125,Faculdades Integradas do Brasil,NULL,NULL
+126,Faculdades Network,NULL,NULL
+14,Fundação Paulista de Tecnologia e Educação,NULL,NULL
+15,Fundação Universidade Regional de Blumenau,NULL,NULL
+16,Institut de Mathematiques Appliquees de Grenoble (IMAG),NULL,NULL
+128,Instituto de Pesquisa Econômica Aplicada - DF,NULL,NULL
+129,Instituto de Pesquisas Eldorado - Brasília,NULL,NULL
+17,Instituto de Pesquisas Tecnológicas do Estado de São Paulo,NULL,NULL
+130,Instituto de Previdência do Estado do Rio Grande do Sul,NULL,NULL
+131,Instituto do Recôncavo de Tecnologia,NULL,NULL
+132,Instituto Estadual de Educação Nossa Senhora Imaculada,NULL,NULL
+127,Instituto Evandro Chagas,NULL,NULL
+134,Instituto Federal de Educação Ciência e Tecnologia de Rondônia,NULL,NULL
+18,"Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",NULL,NULL
+133,"Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul",NULL,NULL
+136,Instituto Federal de Pernambuco,NULL,NULL
+19,Instituto Federal de Santa Catarina,NULL,NULL
+135,Instituto Federal de São Paulo,NULL,NULL
+20,Instituto Federal Farroupilha,NULL,NULL
+21,Instituto Mauá de Tecnologia,NULL,NULL
+22,Instituto Municipal de Ensino Superior de Assis,NULL,NULL
+137,Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira,NULL,NULL
+23,Middlesex University London,NULL,NULL
+138,Pontifícia Universidade Católica de Campinas,NULL,NULL
+139,Pontifícia Universidade Católica de Minas Gerais,NULL,NULL
+24,Pontifícia Universidade Católica do Paraná,NULL,NULL
+25,Pontifícia Universidade Católica do Rio de Janeiro,NULL,NULL
+26,Pontifícia Universidade Católica do Rio Grande do Sul,NULL,NULL
+27,SEM_DADOS,NULL,NULL
+28,Sociedade Educacional de Santa Catarina,NULL,NULL
+29,Sociedade Educacional Três de Maio,NULL,NULL
+30,The University of Western Ontario,NULL,NULL
+140,Universidad de Zaragoza,NULL,NULL
+141,Universidad Nacional de Misiones,NULL,NULL
+31,Universidad Pública de Navarra,NULL,NULL
+142,Universidade Católica de Angola,NULL,NULL
+32,Universidade Católica de Pelotas,NULL,NULL
+143,Universidade Comunitária da Região de Chapecó,NULL,NULL
+33,Universidade da Região da Campanha,NULL,NULL
+34,Universidade de Brasília,NULL,NULL
+35,Universidade de Caxias do Sul,NULL,NULL
+36,Universidade de Cruz Alta,NULL,NULL
+37,Universidade de Passo Fundo,NULL,NULL
+38,Universidade de Pernambuco,NULL,NULL
+39,Universidade de Santa Cruz do Sul,NULL,NULL
+40,Universidade de São Paulo,NULL,NULL
+144,UNIVERSIDADE DE VASSOURAS,NULL,NULL
+41,Universidade do Algarve,NULL,NULL
+145,Universidade do Contestado Campus Canoinhas,NULL,NULL
+42,Universidade do Estado de Santa Catarina,NULL,NULL
+146,Universidade do Minho,NULL,NULL
+147,Universidade do Oeste de Santa Catarina,NULL,NULL
+78,Universidade do Rio Grande,NULL,NULL
+43,Universidade do Vale do Itajaí,NULL,NULL
+44,Universidade do Vale do Rio dos Sinos,NULL,NULL
+45,Universidade Estadual de Campinas,NULL,NULL
+46,Universidade Estadual de Londrina,NULL,NULL
+47,Universidade Estadual de Maringá,NULL,NULL
+48,Universidade Estadual de Santa Cruz,NULL,NULL
+148,Universidade Estadual do Norte do Paraná - Campus Luiz Meneghel,NULL,NULL
+49,Universidade Estadual do Oeste do Paraná,NULL,NULL
+50,Universidade Estadual Paulista Júlio de Mesquita Filho,NULL,NULL
+51,Universidade Federal da Bahia,NULL,NULL
+52,Universidade Federal da Fronteira Sul,NULL,NULL
+149,Universidade Federal de Alagoas,NULL,NULL
+53,Universidade Federal de Campina Grande,NULL,NULL
+150,Universidade Federal de Goiás,NULL,NULL
+54,Universidade Federal de Mato Grosso,NULL,NULL
+151,Universidade Federal de Minas Gerais,NULL,NULL
+55,Universidade Federal de Pelotas,NULL,NULL
+56,Universidade Federal de Pernambuco,NULL,NULL
+57,Universidade Federal de Rondônia,NULL,NULL
+58,Universidade Federal de Santa Catarina,NULL,NULL
+59,Universidade Federal de Santa Maria,NULL,NULL
+60,Universidade Federal de São Carlos,NULL,NULL
+152,Universidade Federal de Sergipe,NULL,NULL
+61,Universidade Federal de Uberlândia,NULL,NULL
+62,Universidade Federal de Viçosa,NULL,NULL
+154,Universidade Federal do Acre,NULL,NULL
+63,Universidade Federal do Espírito Santo,NULL,NULL
+64,Universidade Federal do Pampa,NULL,NULL
+65,Universidade Federal do Pará,NULL,NULL
+66,Universidade Federal do Paraná,NULL,NULL
+67,Universidade Federal do Rio de Janeiro,NULL,NULL
+68,Universidade Federal do Rio Grande do Sul,NULL,NULL
+155,Universidade Federal Fluminense,NULL,NULL
+156,Universidade Franciscana,NULL,NULL
+157,Universidade Luterana do Brasil,NULL,NULL
+158,Universidade Metodista de Piracicaba,NULL,NULL
+69,Universidade Paranaense,NULL,NULL
+70,Universidade Presbiteriana Mackenzie,NULL,NULL
+71,Universidade Regional do Noroeste do Estado do Rio Grande do Sul,NULL,NULL
+72,Universidade Regional Integrada do Alto Uruguai e das Missões,NULL,NULL
+73,Universidade Salgado de Oliveira,NULL,NULL
+74,Universidade Salvador,NULL,NULL
+75,Universidade Tecnológica Federal do Paraná,NULL,NULL
+76,Università degli Studi di Milano/Universidade Federal do Rio Grande do Sul,NULL,NULL
+161,UNIVERSITÀ TELEMATICA GUGLIELMO MARCONI,NULL,NULL
+77,Universität Basel,NULL,NULL
+160,Universität Leipzig,NULL,NULL
+162,Universitat Politècnica de Catalunya,NULL,NULL
+163,"University of California, Los Angeles",NULL,NULL
+164,University of Limerick,NULL,NULL
+165,University of Pireaus Research Center,NULL,NULL
+166,University of Utah,NULL,NULL
+167,University of Waterloo,NULL,NULL

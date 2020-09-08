@@ -857,7 +857,7 @@ INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (567, 3
 INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (572, 122, 214, 2);
 INSERT INTO public.autoresartigo (id, autor_id, artigo_id, ordem) VALUES (571, 379, 214, 1);
 
-- Adicionei na tabela artigos uma coluna tipo_publicacao, ano_publicacao, evento/journal. Tirei atualizacao_lattes e resumo.
+- Tirei tabela artigos atualizacao_lattes e resumo.
 
 COPY artigos(titulo, tipo_id, edicao_id, fonte, tipo_publicacao, ano_publicacao, evento_journal)
 FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/artigos.csv'
@@ -873,7 +873,7 @@ CSV HEADER;
 
 COPY 3739
 
-- Alterei tamanho do 'veiculo' para 400, ano NOT NULL
+- Alterei tamanho do 'veiculo' para 400.
 
 COPY edicoes(veiculo)
 FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/edicoes2.csv'
@@ -892,6 +892,26 @@ UPDATE edicoes SET id_tipo_veiculo = 2 WHERE id IN (18,19,20,21,22,23,24,25,26,2
 
 COPY instituicoes(nome)
 FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/instituicoes.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY formacao(id_titulacao, id_autor, ano_inicio, ano_fim, id_instituicao, curso)
+FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/formacao_graduacao.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY formacao(id_titulacao, id_autor, ano_inicio, ano_fim, id_instituicao, curso)
+FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/formacao_mestrado.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY formacao(id_titulacao, id_autor, ano_inicio, ano_fim, id_instituicao, curso)
+FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/formacao_doutorado.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY afiliacao(id_instituicao, id_autor, ano_inicio, ano_fim, funcao)
+FROM '//home/nanda/Área de Trabalho/ERBD_ARTIGO/scraperXMLtoCSV/Banco PostgreSQL/afiliacao.csv'
 DELIMITER ','
 CSV HEADER;
 
